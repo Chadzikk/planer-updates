@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-08-22T20:25:11.7572762+00:00",
+  "publishedAt": "2026-08-22T20:26:09.4039370+00:00",
   "notes": "Frontend 20.1.7: sticky EDYTUJ UI + menu przy przewijaniu; usunięty przycisk CSV profesjonalny; bardziej zwarte i czytelne tabele wydruków.",
   "frontend": {
     "version": "20.1.7",
     "url": "FRONTEND_UPDATE_v20.1.7.zip",
-    "sha256": "9b2d6d60395b647c94dbcd93514040abc2998ba97e01da6f63c9faf3f0ef82b0",
-    "sizeBytes": 7687302,
+    "sha256": "3956ed09d8edd1efa79211583d48d2926e600baa5e3ccfd0bf0e76ca2202a3b3",
+    "sizeBytes": 7687186,
     "requiresDesktopMajor": 2
   },
   "desktop": {
