@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-08-22T20:26:09.4039370+00:00",
-  "notes": "Frontend 20.1.7: sticky EDYTUJ UI + menu przy przewijaniu; usunięty przycisk CSV profesjonalny; bardziej zwarte i czytelne tabele wydruków.",
+  "publishedAt": "2026-08-22T20:39:44.6723098+00:00",
+  "notes": "Frontend 20.1.8: uproszczony raport rozkroju rur — jedna kolumna PLAN CIĘCIA RURY 300 CM, najdłuższe odcinki pierwsze, bez opisu odpadu i historii końcówek.",
   "frontend": {
-    "version": "20.1.7",
-    "url": "FRONTEND_UPDATE_v20.1.7.zip",
-    "sha256": "3956ed09d8edd1efa79211583d48d2926e600baa5e3ccfd0bf0e76ca2202a3b3",
-    "sizeBytes": 7687186,
+    "version": "20.1.8",
+    "url": "FRONTEND_UPDATE_v20.1.8.zip",
+    "sha256": "e9b874768dc929a04201055e8bf68c21af8811695b341921261b9d601085c4fe",
+    "sizeBytes": 7689971,
     "requiresDesktopMajor": 2
   },
   "desktop": {
