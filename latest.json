@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-08-22T20:11:13.3533437+00:00",
-  "notes": "Frontend 20.1.6: KSK BOX — szeroki fallback OCR dla powtórzonych LD10 (m.in. ściana 115); płynna edycja stołów z zapisem po puszczeniu; wspólny czytelny styl wydruków.",
+  "publishedAt": "2026-08-22T20:25:11.7572762+00:00",
+  "notes": "Frontend 20.1.7: sticky EDYTUJ UI + menu przy przewijaniu; usunięty przycisk CSV profesjonalny; bardziej zwarte i czytelne tabele wydruków.",
   "frontend": {
-    "version": "20.1.6",
-    "url": "FRONTEND_UPDATE_v20.1.6.zip",
-    "sha256": "070d3a020e664a837b4ba17b673d6b6bb0f51998553ea7d3cd12bbccc8fc1e0a",
-    "sizeBytes": 7685193,
+    "version": "20.1.7",
+    "url": "FRONTEND_UPDATE_v20.1.7.zip",
+    "sha256": "9b2d6d60395b647c94dbcd93514040abc2998ba97e01da6f63c9faf3f0ef82b0",
+    "sizeBytes": 7687302,
     "requiresDesktopMajor": 2
   },
   "desktop": {
