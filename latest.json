@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-08-22T21:07:05.2858737+00:00",
+  "publishedAt": "2026-08-22T21:07:25.9881183+00:00",
   "notes": "Frontend 20.1.9: lepsze pakowanie rur z większymi resztami użytkowymi; SZALOWANIE proste + SZCZEGÓŁOWE z kodami zamków zamiast KSK; PRĄDY razem z planem rur; poprawiony stały pasek UI; ręczna korekta wstępnie z wynikiem AUTO; podgląd PDF rzutu.",
   "frontend": {
     "version": "20.1.9",
     "url": "FRONTEND_UPDATE_v20.1.9.zip",
-    "sha256": "f975f55ad9cf3a72c9c63ea98049a83c05b26680411caa33a01c7c66b29ce8c4",
+    "sha256": "6bf7321a250d0340fd6fcd55e059e2188ae56660269e37547eb0989f54a4db9e",
     "sizeBytes": 7696298,
     "requiresDesktopMajor": 2
   },
