@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-08-22T20:39:44.6723098+00:00",
-  "notes": "Frontend 20.1.8: uproszczony raport rozkroju rur — jedna kolumna PLAN CIĘCIA RURY 300 CM, najdłuższe odcinki pierwsze, bez opisu odpadu i historii końcówek.",
+  "publishedAt": "2026-08-22T21:07:05.2858737+00:00",
+  "notes": "Frontend 20.1.9: lepsze pakowanie rur z większymi resztami użytkowymi; SZALOWANIE proste + SZCZEGÓŁOWE z kodami zamków zamiast KSK; PRĄDY razem z planem rur; poprawiony stały pasek UI; ręczna korekta wstępnie z wynikiem AUTO; podgląd PDF rzutu.",
   "frontend": {
-    "version": "20.1.8",
-    "url": "FRONTEND_UPDATE_v20.1.8.zip",
-    "sha256": "e9b874768dc929a04201055e8bf68c21af8811695b341921261b9d601085c4fe",
-    "sizeBytes": 7689971,
+    "version": "20.1.9",
+    "url": "FRONTEND_UPDATE_v20.1.9.zip",
+    "sha256": "f975f55ad9cf3a72c9c63ea98049a83c05b26680411caa33a01c7c66b29ce8c4",
+    "sizeBytes": 7696298,
     "requiresDesktopMajor": 2
   },
   "desktop": {
