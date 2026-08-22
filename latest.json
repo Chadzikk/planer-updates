@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "channel": "stable",
+  "publishedAt": "2026-08-22T18:27:00+02:00",
+  "notes": "Kanał stabilny Planera Ścian. Wersja bazowa z automatycznymi aktualizacjami.",
+  "frontend": {
+    "version": "20.1.0",
+    "url": "FRONTEND_UPDATE_v20.1.0.zip",
+    "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+    "sizeBytes": 1,
+    "requiresDesktopMajor": 2
+  }
+}
