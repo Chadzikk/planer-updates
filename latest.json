@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-08-22T19:45:34.0491177+00:00",
-  "notes": "Frontend 20.1.4: KSK BOX — OCR ZAMEK ograniczony do komórki wartości; poprawne powtórzenia LD10/LD10 (m.in. ściana 108).",
+  "publishedAt": "2026-08-22T19:58:56.6952559+00:00",
+  "notes": "Frontend 20.1.5: KSK BOX — podwójny OCR pola ZAMEK (PSM12 + PSM6, zachowuje powtórzenia LD10); RURKI pokazują liczbę odcinków i sumę metrów.",
   "frontend": {
-    "version": "20.1.4",
-    "url": "FRONTEND_UPDATE_v20.1.4.zip",
-    "sha256": "055771b39585e171be506bb509122df35904863156e7a47f071c5a41af6d0cce",
-    "sizeBytes": 7683356,
+    "version": "20.1.5",
+    "url": "FRONTEND_UPDATE_v20.1.5.zip",
+    "sha256": "00e60c4251a86e309c2319db082a2d3778460f2cc014930d214f23b3399b455c",
+    "sizeBytes": 7683478,
     "requiresDesktopMajor": 2
   },
   "desktop": {
