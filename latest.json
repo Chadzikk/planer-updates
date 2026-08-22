@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-08-22T21:07:25.9881183+00:00",
-  "notes": "Frontend 20.1.9: lepsze pakowanie rur z większymi resztami użytkowymi; SZALOWANIE proste + SZCZEGÓŁOWE z kodami zamków zamiast KSK; PRĄDY razem z planem rur; poprawiony stały pasek UI; ręczna korekta wstępnie z wynikiem AUTO; podgląd PDF rzutu.",
+  "publishedAt": "2026-08-22T22:06:39.9925993+00:00",
+  "notes": "Frontend 20.1.10: wieniec z przerywanej geometrii i pole do Excela E; dokładne kody zamków w SZALOWANIE SZCZEGÓŁOWE; minimum partii w AUTO PRODUKCJA z preferencją wózek I→stoły 1–5 i II→6–10; ręczna korekta startuje od wyniku AUTO; usunięty duplikat podglądu PDF i etykieta 0 PRAWA; PRĄDY nadal zawierają plan cięcia rur.",
   "frontend": {
-    "version": "20.1.9",
-    "url": "FRONTEND_UPDATE_v20.1.9.zip",
-    "sha256": "6bf7321a250d0340fd6fcd55e059e2188ae56660269e37547eb0989f54a4db9e",
-    "sizeBytes": 7696298,
+    "version": "20.1.10",
+    "url": "FRONTEND_UPDATE_v20.1.10.zip",
+    "sha256": "11de03f253db15cab862523bc90299b04dd521cb6fe140cc122ae74ef65a2a9a",
+    "sizeBytes": 7697487,
     "requiresDesktopMajor": 2
   },
   "desktop": {
