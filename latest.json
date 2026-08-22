@@ -1,13 +1,23 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-08-22T19:25:00+02:00",
-  "notes": "v20.1.1: poprawiony odczyt KSK dla pionowych DL8/GL8. Szmalec 101–120: 196 KSK, w tym ściana 114 = 16.",
+  "publishedAt": "2026-08-22T18:26:21.1831442+00:00",
+  "notes": "Frontend 20.1.1: KSK DL8/GL8. Desktop 2.1.1: naprawione Expand-Archive na Windows.",
   "frontend": {
     "version": "20.1.1",
     "url": "FRONTEND_UPDATE_v20.1.1.zip",
     "sha256": "f20a0e3ead142d53e9d05655566b4b092a40fe96bf46c2b3e3f3d44e512cbb9d",
     "sizeBytes": 7618167,
     "requiresDesktopMajor": 2
+  },
+  "desktop": {
+    "version": "2.1.1",
+    "webVersion": "20.1.1",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/desktop-2.1.1/Planer-Scian-Setup-v20.1.1-DESKTOP-2.1.1-STATIC-x64.exe",
+    "sha256": "9d3bcc67e86f15a9732e59264728298dba6757850c1908a92e42557bf921cfe4",
+    "sizeBytes": 105129640,
+    "silentArgs": [
+      "/S"
+    ]
   }
 }
