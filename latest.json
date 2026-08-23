@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-08-23T21:22:51Z",
-  "notes": "Planer 20.2.1: naprawione drukowanie bez popupów.",
+  "publishedAt": "2026-08-23T22:21:25Z",
+  "notes": "Planer 20.2.2 / Desktop 2.1.5: podgląd wydruku, WIENIEC razem, AUTO scala zbędne stoły i grupuje wózki, menu hamburger zjeżdża z góry.",
   "frontend": {
-    "version": "20.2.1",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.1/FRONTEND_UPDATE_v20.2.1.zip",
-    "sha256": "4f981861ba1ee266b7a6c846e20eda0e941d00db27ef34f6cb292fcf936ae3ba",
-    "sizeBytes": 7626084,
+    "version": "20.2.2",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.2-desktop-2.1.5/FRONTEND_UPDATE_v20.2.2.zip",
+    "sha256": "131a54c5b8b831da958264869fdc1d52fab9bfc7abfa143b827970ff8ff737ab",
+    "sizeBytes": 7666136,
     "requiresDesktopMajor": 2
   },
   "desktop": {
-    "version": "2.1.4",
-    "webVersion": "20.2.0",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.0-desktop-2.1.4/Planer-Scian-Setup-v20.2.0-DESKTOP-2.1.4-STATIC-x64.exe",
-    "sha256": "a93c9f7c107e76041b27f6bebf7cd893f30774dc4704531c326deff3ee19cb34",
-    "sizeBytes": 105118230,
+    "version": "2.1.5",
+    "webVersion": "20.2.2",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.2-desktop-2.1.5/Planer-Scian-Setup-v20.2.2-DESKTOP-2.1.5-STATIC-x64.exe",
+    "sha256": "d06896e652646947ffb4ad7e82d95beef703cf086c0a36e3e00b91eb4b24efe7",
+    "sizeBytes": 105119682,
     "silentArgs": [
       "/S"
     ]
