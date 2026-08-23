@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-08-22T22:06:39.9925993+00:00",
-  "notes": "Frontend 20.1.10: wieniec z przerywanej geometrii i pole do Excela E; dokładne kody zamków w SZALOWANIE SZCZEGÓŁOWE; minimum partii w AUTO PRODUKCJA z preferencją wózek I→stoły 1–5 i II→6–10; ręczna korekta startuje od wyniku AUTO; usunięty duplikat podglądu PDF i etykieta 0 PRAWA; PRĄDY nadal zawierają plan cięcia rur.",
+  "publishedAt": "2026-08-23T07:37:07.7194993+00:00",
+  "notes": "Frontend 20.1.10: wieniec, dokładne zamki, poprawione AUTO produkcji, ręczna korekta i uproszczone UI. Desktop 2.1.3: wieniec trafia do kolumny E w Excelu.",
   "frontend": {
     "version": "20.1.10",
     "url": "FRONTEND_UPDATE_v20.1.10.zip",
@@ -11,11 +11,11 @@
     "requiresDesktopMajor": 2
   },
   "desktop": {
-    "version": "2.1.2",
-    "webVersion": "20.1.1",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/desktop-2.1.2/Planer-Scian-Setup-v20.1.1-DESKTOP-2.1.2-STATIC-x64.exe",
-    "sha256": "637350ae4ca809c32faf1c0d56c1db17463786c55da7e663ce03f08c7da6cd86",
-    "sizeBytes": 105129897,
+    "version": "2.1.3",
+    "webVersion": "20.1.10",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/desktop-2.1.3/Planer-Scian-Setup-v20.1.10-DESKTOP-2.1.3-STATIC-x64.exe",
+    "sha256": "550066aa285f4dbbf4d0f30a30394fcb1c5b22b468ed1dc1c7404442893a271a",
+    "sizeBytes": 105145725,
     "silentArgs": [
       "/S"
     ]
