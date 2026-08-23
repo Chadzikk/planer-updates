@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-08-23T22:21:25Z",
+  "publishedAt": "2026-08-23T22:22:14Z",
   "notes": "Planer 20.2.2 / Desktop 2.1.5: podgląd wydruku, WIENIEC razem, AUTO scala zbędne stoły i grupuje wózki, menu hamburger zjeżdża z góry.",
   "frontend": {
     "version": "20.2.2",
     "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.2-desktop-2.1.5/FRONTEND_UPDATE_v20.2.2.zip",
-    "sha256": "131a54c5b8b831da958264869fdc1d52fab9bfc7abfa143b827970ff8ff737ab",
-    "sizeBytes": 7666136,
+    "sha256": "0417a98c78a330ac93bea1c8ec3187ee24c69ad8b6703e9cd1ff6de276c33539",
+    "sizeBytes": 7666135,
     "requiresDesktopMajor": 2
   },
   "desktop": {
     "version": "2.1.5",
     "webVersion": "20.2.2",
     "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.2-desktop-2.1.5/Planer-Scian-Setup-v20.2.2-DESKTOP-2.1.5-STATIC-x64.exe",
-    "sha256": "d06896e652646947ffb4ad7e82d95beef703cf086c0a36e3e00b91eb4b24efe7",
-    "sizeBytes": 105119682,
+    "sha256": "7f25b5070bbefd9adc6604ceb3e15f8ba56b85b9b4c671a036826b2ef57d2d99",
+    "sizeBytes": 105119686,
     "silentArgs": [
       "/S"
     ]
