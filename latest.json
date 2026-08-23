@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-08-23T07:37:07.7194993+00:00",
-  "notes": "Frontend 20.1.10: wieniec, dokładne zamki, poprawione AUTO produkcji, ręczna korekta i uproszczone UI. Desktop 2.1.3: wieniec trafia do kolumny E w Excelu.",
+  "publishedAt": "2026-08-23T08:02:34.1063910+00:00",
+  "notes": "Frontend 20.1.11: bez etykiety PARTIA przy jednym zalaniu; PRĄDY zawierają plan cięcia rur 3,00 m; Excel bierze masę z właściwej ściany i WIENIEC liczy zawsze z długości ściany + drzwi; naprawione podwójne SZALOWANIE SZCZEGÓŁOWE.",
   "frontend": {
-    "version": "20.1.10",
-    "url": "FRONTEND_UPDATE_v20.1.10.zip",
-    "sha256": "11de03f253db15cab862523bc90299b04dd521cb6fe140cc122ae74ef65a2a9a",
-    "sizeBytes": 7697487,
+    "version": "20.1.11",
+    "url": "FRONTEND_UPDATE_v20.1.11.zip",
+    "sha256": "ce34e3a6165eb1a3d1da3e5f53ed9ef0729cbe7904acdee2d866be8e6e380487",
+    "sizeBytes": 7698058,
     "requiresDesktopMajor": 2
   },
   "desktop": {
