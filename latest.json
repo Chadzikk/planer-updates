@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-08-23T20:45:33.8352232+00:00",
-  "notes": "Planer 20.2.0 / Desktop 2.1.4: naprawiony eksport STANY MAGAZYNOWE — parser PL/EN, RURY w mb, weryfikacja i rollback.",
+  "publishedAt": "2026-08-23T21:22:11Z",
+  "notes": "Planer 20.2.1: naprawione drukowanie bez popupów.",
   "frontend": {
-    "version": "20.2.0",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.0-desktop-2.1.4/FRONTEND_UPDATE_v20.2.0.zip",
-    "sha256": "f3a4f9e562bf07ef37b7bd160595a36a0fb2388bfaee8a60396d2f3201b686a1",
-    "sizeBytes": 7664648,
+    "version": "20.2.1",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.1/FRONTEND_UPDATE_v20.2.1.zip",
+    "sha256": "7fda0a34906499ddecb04a367b698ca3c2ee4369222d45f5d63a4d2ac7c85bd1",
+    "sizeBytes": 7626079,
     "requiresDesktopMajor": 2
   },
   "desktop": {
