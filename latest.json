@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-08-24T19:29:59Z",
-  "notes": "Planer 20.2.4 / Desktop 2.1.6 bez zmian. Naprawa podglądu PDF, uporządkowane ustawienia ścian/produkcji i AUTO stołów oraz skrócony plan cięcia rurek. Pełny zestaw regresji i audyt funkcji: PASS.",
+  "publishedAt": "2026-08-24T19:30:01Z",
+  "notes": "Planer 20.2.5 / Desktop 2.1.6 bez zmian. Scalona lista POTRZEBA rurek dla nominalnie tych samych długości, dokładniejszy solver MINIMUM (Jurczyk: 11 użyć zamiast 12; przy zamku 20 cm tylko 1 użycie stołu 14 m) oraz globalne AUTO minimalizujące najpierw liczbę partii bez mieszania transportów na jednym stole. Pełny zestaw regresji i audyt funkcji: PASS.",
   "frontend": {
-    "version": "20.2.4",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.4/FRONTEND_UPDATE_v20.2.4.zip",
-    "sha256": "fa13e40983029c4175fccd6736b126ad043383e096a1ff7d83de32d1b8b07d49",
-    "sizeBytes": 7666176,
+    "version": "20.2.5",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.5/FRONTEND_UPDATE_v20.2.5.zip",
+    "sha256": "8b35057cd8fa46e09d0e657f411e49aec33ebc1d3c1d156d9c4fe95bc79781f2",
+    "sizeBytes": 7666705,
     "requiresDesktopMajor": 2
   },
   "desktop": {
