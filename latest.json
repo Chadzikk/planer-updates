@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-08-24T19:54:52Z",
-  "notes": "Planer 20.2.6 / Desktop 2.1.6 bez zmian. Przebudowany końcowy optimizer ustawiania ścian: potrafi opróżnić zbędny stół, przenieść ściany lub cały stół do wcześniejszej partii, grupuje kolejne ściany z trasy na jednym stole i używa ruchów 1→1, 1↔1 oraz 2↔1. W trybach transportowych nadal obowiązuje twardy zakaz mieszania wózków na jednym stole. Pełny zestaw regresji i audyt funkcji: PASS.",
+  "publishedAt": "2026-08-24T20:08:50Z",
+  "notes": "Planer 20.2.7 / Desktop 2.1.6 bez zmian. AUTO dostało drugi, niezależny solver budujący układ ścian od zera z kolejności załadunku zamiast tylko poprawiać stary podział lokalnymi ruchami. Szuka zwartych odcinków ścian, minimalnej liczby partii i stołów, ogranicza użycie 14 m oraz dokładnie dopasowuje wynik do fizycznych stołów. Transporty nadal nie są mieszane na jednym stole.",
   "frontend": {
-    "version": "20.2.6",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.6/FRONTEND_UPDATE_v20.2.6.zip",
-    "sha256": "9046ea38a7d1113175b4a7d43e42346d7929068e8cc90e906f474f7501c274b7",
-    "sizeBytes": 7669229,
+    "version": "20.2.7",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.7/FRONTEND_UPDATE_v20.2.7.zip",
+    "sha256": "9ded8f29867f7c9504dd9783813dd5f423b84492b96fb888563ecf364c965999",
+    "sizeBytes": 7670734,
     "requiresDesktopMajor": 2
   },
   "desktop": {
