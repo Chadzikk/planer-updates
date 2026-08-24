@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-08-24T20:08:50Z",
-  "notes": "Planer 20.2.7 / Desktop 2.1.6 bez zmian. AUTO dostało drugi, niezależny solver budujący układ ścian od zera z kolejności załadunku zamiast tylko poprawiać stary podział lokalnymi ruchami. Szuka zwartych odcinków ścian, minimalnej liczby partii i stołów, ogranicza użycie 14 m oraz dokładnie dopasowuje wynik do fizycznych stołów. Transporty nadal nie są mieszane na jednym stole.",
+  "publishedAt": "2026-08-24T20:36:27Z",
+  "notes": "Planer 20.2.8 / Desktop 2.1.6. MINIMUM STOŁÓW ma osobny twardy solver: najpierw absolutnie najmniej użyć stołów, następnie logiczne ciągi ścian zgodne z kolejnością załadunku; użycie 14 m, liczba partii i odpad są dopiero kolejnymi kryteriami. Heurystyka produkcyjna nie może już zwiększyć liczby stołów.",
   "frontend": {
-    "version": "20.2.7",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.7/FRONTEND_UPDATE_v20.2.7.zip",
-    "sha256": "9ded8f29867f7c9504dd9783813dd5f423b84492b96fb888563ecf364c965999",
-    "sizeBytes": 7670734,
+    "version": "20.2.8",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.8/FRONTEND_UPDATE_v20.2.8.zip",
+    "sha256": "ed265870d3f5da7855f6747df630afa7afe5b3d402a8b492a967de5f177a361f",
+    "sizeBytes": 7672642,
     "requiresDesktopMajor": 2
   },
   "desktop": {
