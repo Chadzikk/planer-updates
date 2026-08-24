@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-08-23T22:36:47Z",
-  "notes": "Planer 20.2.2 / Desktop 2.1.5. RAW bootstrap omija przekierowania GitHub Releases dla Desktop 2.1.4.",
+  "publishedAt": "2026-08-24T15:47:10Z",
+  "notes": "Planer 20.2.3 / Desktop 2.1.6. Audyt FULL_PASS: 88/88 testów, 29/29 audytu funkcji, 20/20 hardening Desktop/updater. Aktualizacja z SHA-256 i rollbackiem.",
   "frontend": {
-    "version": "20.2.2",
-    "url": "https://raw.githubusercontent.com/Chadzikk/planer-updates/main/downloads/FRONTEND_UPDATE_v20.2.2.zip",
-    "sha256": "3641ecbc971d93577fe7afd6363ea19681b5f758ee73fa0da006da877540d184",
-    "sizeBytes": 7666134,
+    "version": "20.2.3",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.3/FRONTEND_UPDATE_v20.2.3.zip",
+    "sha256": "e900a0614034a3f21c1dc7616b2bd6e3176281dab221775c7b18189ea05727c3",
+    "sizeBytes": 7666056,
     "requiresDesktopMajor": 2
   },
   "desktop": {
-    "version": "2.1.5",
-    "webVersion": "20.2.2",
-    "url": "https://raw.githubusercontent.com/Chadzikk/planer-updates/main/downloads/Planer-Scian-Setup-v20.2.2-DESKTOP-2.1.5-RAW-x64.exe",
-    "sha256": "801c86d7ec19602e8d1d09096e7f79765ebf01cc01697353497254b7ddefef09",
-    "sizeBytes": 104119425,
+    "version": "2.1.6",
+    "webVersion": "20.2.3",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.3/Planer-Scian-Setup-v20.2.3-DESKTOP-2.1.6-STATIC-x64.exe",
+    "sha256": "86b5408f3e3942bc1e29a74f2f232ffc7b800f355356c5c227d7e2dd096c9daf",
+    "sizeBytes": 105119623,
     "silentArgs": [
       "/S"
     ]
