@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-08-24T19:30:04Z",
+  "publishedAt": "2026-08-24T19:34:26Z",
   "notes": "Planer 20.2.5 / Desktop 2.1.6 bez zmian. Scalona lista POTRZEBA rurek dla nominalnie tych samych długości, dokładniejszy solver MINIMUM (Jurczyk: 11 użyć zamiast 12; przy zamku 20 cm tylko 1 użycie stołu 14 m) oraz globalne AUTO minimalizujące najpierw liczbę partii bez mieszania transportów na jednym stole. Pełny zestaw regresji i audyt funkcji: PASS.",
   "frontend": {
     "version": "20.2.5",
     "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.5/FRONTEND_UPDATE_v20.2.5.zip",
-    "sha256": "3e62534aeecf87c0a55d442899c7e40bcee80f25ca4ae54e31abf37a9119ed0c",
+    "sha256": "6d771dd62c77074f818572fc31d1d3a96a966ca9c7f5b9593e9da9561c906caf",
     "sizeBytes": 7666704,
     "requiresDesktopMajor": 2
   },
