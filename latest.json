@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-08-24T15:47:10Z",
-  "notes": "Planer 20.2.3 / Desktop 2.1.6. Audyt FULL_PASS: 88/88 testów, 29/29 audytu funkcji, 20/20 hardening Desktop/updater. Aktualizacja z SHA-256 i rollbackiem.",
+  "publishedAt": "2026-08-24T18:36:14Z",
+  "notes": "Planer 20.2.4 / Desktop 2.1.6 bez zmian. Naprawa podglądu PDF, uporządkowane ustawienia ścian/produkcji i AUTO stołów oraz skrócony plan cięcia rurek. Pełny zestaw regresji i audyt funkcji: PASS.",
   "frontend": {
-    "version": "20.2.3",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.3/FRONTEND_UPDATE_v20.2.3.zip",
-    "sha256": "e900a0614034a3f21c1dc7616b2bd6e3176281dab221775c7b18189ea05727c3",
-    "sizeBytes": 7666056,
+    "version": "20.2.4",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.4/FRONTEND_UPDATE_v20.2.4.zip",
+    "sha256": "4861ec9d526c8d515ebf1e61792e54218c9c712b4f2c6fe101f14b35a202840a",
+    "sizeBytes": 7666179,
     "requiresDesktopMajor": 2
   },
   "desktop": {
