@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-08-24T20:36:27Z",
+  "publishedAt": "2026-08-24T20:45:29Z",
   "notes": "Planer 20.2.8 / Desktop 2.1.6. MINIMUM STOŁÓW ma osobny twardy solver: najpierw absolutnie najmniej użyć stołów, następnie logiczne ciągi ścian zgodne z kolejnością załadunku; użycie 14 m, liczba partii i odpad są dopiero kolejnymi kryteriami. Heurystyka produkcyjna nie może już zwiększyć liczby stołów.",
   "frontend": {
     "version": "20.2.8",
     "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.8/FRONTEND_UPDATE_v20.2.8.zip",
-    "sha256": "ed265870d3f5da7855f6747df630afa7afe5b3d402a8b492a967de5f177a361f",
-    "sizeBytes": 7672642,
+    "sha256": "e08f047e0cdeb6ddec20de81d00162594ca9b6b7fc059aeecac13feb7fbac7c4",
+    "sizeBytes": 7672645,
     "requiresDesktopMajor": 2
   },
   "desktop": {
