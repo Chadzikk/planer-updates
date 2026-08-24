@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-08-24T19:19:17Z",
+  "publishedAt": "2026-08-24T19:19:54Z",
   "notes": "Planer 20.2.4 / Desktop 2.1.6 bez zmian. Naprawa podglądu PDF, uporządkowane ustawienia ścian/produkcji i AUTO stołów oraz skrócony plan cięcia rurek. Pełny zestaw regresji i audyt funkcji: PASS.",
   "frontend": {
     "version": "20.2.4",
     "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.4/FRONTEND_UPDATE_v20.2.4.zip",
-    "sha256": "83824919f7ff647809b4a38cd077d86d51ab1058dd7fff5a6e7403088d113976",
+    "sha256": "ce8708a4c78d244229f41adbcd4f24f97b0ca769cecf7aef7e8930f03739d7c1",
     "sizeBytes": 7666175,
     "requiresDesktopMajor": 2
   },
