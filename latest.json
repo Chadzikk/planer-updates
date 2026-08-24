@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-08-24T20:53:59Z",
-  "notes": "Planer 20.2.9 / Desktop 2.1.6. AUTO MINIMUM i TRANSPORTY mają wspólny twardy priorytet: najpierw absolutnie najmniej użyć stołów, potem najmniej partii przy tym minimum, dalej logiczne ciągi kolejności załadunku. Granica transportu nie może już sztucznie robić np. 13 stołów, gdy całość fizycznie mieści się na 11; końcówka jednego i początek kolejnego transportu mogą współdzielić stół tylko wtedy, gdy usuwa to zbędne użycie stołu.",
+  "publishedAt": "2026-08-24T23:44:52Z",
+  "notes": "Planer 20.2.10 / Desktop 2.1.6. AUTO liczy realny park fizycznych stołów. Dla 10 stołów i rozwiązania 11-użyciowego dąży do 10 stołów w pierwszej partii + 1 w drugiej zamiast powtarzać jedyny stół 14 m. MINIMUM STOŁÓW + LOGIKA i TRANSPORTY + LOGISTYKA korzystają z tego samego praktycznego solvera; transporty są skupiane na hali, a kolejność załadunku pozostaje możliwie ciągła.",
   "frontend": {
-    "version": "20.2.9",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.9/FRONTEND_UPDATE_v20.2.9.zip",
-    "sha256": "40627d74d1dd6334e02e5e2d12a9b072b8e7b72f7136a1dce945c036aebe8f0f",
-    "sizeBytes": 7673600,
+    "version": "20.2.10",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.10/FRONTEND_UPDATE_v20.2.10.zip",
+    "sha256": "18545ce44e77eeab77834e2f43dc7d053fcb24616137024b87ec59157d8c33f5",
+    "sizeBytes": 7671469,
     "requiresDesktopMajor": 2
   },
   "desktop": {
