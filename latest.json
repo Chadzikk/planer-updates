@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-08-25T10:35:09Z",
+  "publishedAt": "2026-08-25T10:35:24Z",
   "notes": "Planer 20.2.10 / Desktop 2.1.6. AUTO liczy realny park fizycznych stołów. Dla 10 stołów i rozwiązania 11-użyciowego dąży do 10 stołów w pierwszej partii + 1 w drugiej zamiast powtarzać jedyny stół 14 m. MINIMUM STOŁÓW + LOGIKA i TRANSPORTY + LOGISTYKA korzystają z tego samego praktycznego solvera; transporty są skupiane na hali, a kolejność załadunku pozostaje możliwie ciągła.",
   "frontend": {
     "version": "20.2.10",
     "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.10/FRONTEND_UPDATE_v20.2.10.zip",
-    "sha256": "8d6b64628843a448674c312da39e5810b1c4a37eb0b1ef11ae7df16073010791",
-    "sizeBytes": 7672281,
+    "sha256": "290af83890b5d93a683e0a100dcb8dad2408b78cae0f514ae0b4fc6b316f5c8b",
+    "sizeBytes": 7672280,
     "requiresDesktopMajor": 2
   },
   "desktop": {
