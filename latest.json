@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-08-25T11:18:06Z",
+  "publishedAt": "2026-08-25T16:15:19Z",
   "notes": "Planer 20.2.11 / Desktop 2.1.6. Aktualizacja zbiorcza zawiera całe 20.2.10 oraz dodatkowe zabezpieczenia bez zmiany wyników planowania. Eksport STANY wykrywa duplikaty, brak masy i rury bez długości przed zapisem, a po zapisie wymaga potwierdzenia każdej ściany. Źródło masy jest jawne, a AUTO ma diagnostykę pamięci podręcznej.",
   "frontend": {
     "version": "20.2.11",
     "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.11/FRONTEND_UPDATE_v20.2.11.zip",
-    "sha256": "811cdec7ea412358f8b26e54b7428026f7dc7e0c14d5095727029d3fb7c0148e",
-    "sizeBytes": 7672289,
+    "sha256": "09d274ae31a13b2c4644ba0e56c8fe0b92b9b226a5518c4ac33aea741fa82704",
+    "sizeBytes": 7672491,
     "requiresDesktopMajor": 2
   },
   "desktop": {
