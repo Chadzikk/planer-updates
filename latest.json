@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-08-26T07:14:28.508Z",
+  "publishedAt": "2026-08-26T07:19:33.530Z",
   "notes": "Planer 20.2.12 / Desktop 2.1.8: poprawiona automatyczna instalacja i ponowne uruchomienie po Wyjdź i aktualizuj.",
   "frontend": {
     "version": "20.2.12",
@@ -14,7 +14,7 @@
     "version": "2.1.8",
     "webVersion": "20.2.12",
     "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.12/Planer-Scian-Setup-v20.2.12-DESKTOP-2.1.8-STATIC-x64.exe",
-    "sha256": "8d01aa88a0c54247893700e6b8201e80e195c37d166205466aa402689c9bbb6b",
+    "sha256": "9c882fc52756644c0077232b3ead134726df52067ae500e580943d46e493d0cb",
     "sizeBytes": 107189828,
     "silentArgs": [
       "/S"
