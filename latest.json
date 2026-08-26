@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-08-26T07:19:33.530Z",
-  "notes": "Planer 20.2.12 / Desktop 2.1.8: poprawiona automatyczna instalacja i ponowne uruchomienie po Wyjdź i aktualizuj.",
+  "publishedAt": "2026-08-26T07:24:05.090Z",
+  "notes": "Planer 20.2.13: przywrócony stały pasek EDYTUJ UI + menu. Desktop 2.1.8 bez zmian.",
   "frontend": {
-    "version": "20.2.12",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.12/FRONTEND_UPDATE_v20.2.12.zip",
-    "sha256": "ad2fa7aa0b8bac6781aa5c36506fc81179bafcf6567c09bda73049326243e9c7",
-    "sizeBytes": 9898971,
+    "version": "20.2.13",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.13/FRONTEND_UPDATE_v20.2.13.zip",
+    "sha256": "41d284c82f09982288e94a86230c0387b9a16dd505bcf53d3c6cc7609533e4d1",
+    "sizeBytes": 9899318,
     "requiresDesktopMajor": 2
   },
   "desktop": {
