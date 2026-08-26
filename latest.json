@@ -1,23 +1,23 @@
 {
-    "schemaVersion":  1,
-    "channel":  "stable",
-    "publishedAt":  "2026-08-25T18:38:12.3480606Z",
-    "notes":  "Planer 20.2.12 / Desktop 2.1.7 verified release.",
-    "frontend":  {
-                     "version":  "20.2.12",
-                     "url":  "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.12/FRONTEND_UPDATE_v20.2.12.zip",
-                     "sha256":  "ad2fa7aa0b8bac6781aa5c36506fc81179bafcf6567c09bda73049326243e9c7",
-                     "sizeBytes":  9898971,
-                     "requiresDesktopMajor":  2
-                 },
-    "desktop":  {
-                    "version":  "2.1.7",
-                    "webVersion":  "20.2.12",
-                    "url":  "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.12/Planer-Scian-Setup-v20.2.12-DESKTOP-2.1.7-STATIC-x64.exe",
-                    "sha256":  "ebfe9772b4e268b1574c4d1a583bf9f30e567c65c24b8f7d64eeda3d9ca4e398",
-                    "sizeBytes":  107188916,
-                    "silentArgs":  [
-                                       "/S"
-                                   ]
-                }
+  "schemaVersion": 1,
+  "channel": "stable",
+  "publishedAt": "2026-08-26T04:32:08.240Z",
+  "notes": "Planer 20.2.12 / Desktop 2.1.8: poprawiona automatyczna instalacja i ponowne uruchomienie po Wyjdź i aktualizuj.",
+  "frontend": {
+    "version": "20.2.12",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.12/FRONTEND_UPDATE_v20.2.12.zip",
+    "sha256": "ad2fa7aa0b8bac6781aa5c36506fc81179bafcf6567c09bda73049326243e9c7",
+    "sizeBytes": 9898971,
+    "requiresDesktopMajor": 2
+  },
+  "desktop": {
+    "version": "2.1.8",
+    "webVersion": "20.2.12",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.12/Planer-Scian-Setup-v20.2.12-DESKTOP-2.1.8-STATIC-x64.exe",
+    "sha256": "9dc1644e4dd565761e6a0222b494739ffe484aba64cac84fc074d635e01b95b5",
+    "sizeBytes": 107189734,
+    "silentArgs": [
+      "/S"
+    ]
+  }
 }
