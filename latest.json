@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-08-27T23:08:20.139Z",
-  "notes": "Planer 20.2.17: Jurczyk 102/103/105/108 + odporny scan-ahead 2Ø16/3Ø16/L + rurki 0,5 m.",
+  "publishedAt": "2026-08-27T23:37:32.925Z",
+  "notes": "20.2.18 / Desktop 2.1.14: AM/AN + RURY co 0,5 m z read-back.",
   "frontend": {
-    "version": "20.2.17",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.17/FRONTEND_UPDATE_v20.2.17.zip",
-    "sha256": "f671538edc873eb734858d1664ad8ea7a987ecf06ff0bd4e6eae85a718ed7513",
-    "sizeBytes": 9901766,
+    "version": "20.2.18",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.18/FRONTEND_UPDATE_v20.2.18.zip",
+    "sha256": "76d478648177149b7702ed326f061a18a4e31cec2d8cca34a357ece1f84e22e3",
+    "sizeBytes": 9901760,
     "requiresDesktopMajor": 2
   },
   "desktop": {
-    "version": "2.1.13",
-    "webVersion": "20.2.15",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.15/Planer-Scian-Setup-v20.2.15-DESKTOP-2.1.13-STATIC-x64.exe",
-    "sha256": "c97aa4cd562d27015e17231746dd078fcd06fcde3be12b17b3290a702c6ee164",
-    "sizeBytes": 107196101,
+    "version": "2.1.14",
+    "webVersion": "20.2.18",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.18/Planer-Scian-Setup-v20.2.18-DESKTOP-2.1.14-STATIC-x64.exe",
+    "sha256": "77ce1ddbd24521192da7cae472b7e45eb7e01c59224f50b4870d38105356d4b8",
+    "sizeBytes": 107197206,
     "silentArgs": [
       "/S"
     ]
