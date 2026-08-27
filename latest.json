@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-08-27T23:37:32.925Z",
-  "notes": "20.2.18 / Desktop 2.1.14: AM/AN + RURY co 0,5 m z read-back.",
+  "publishedAt": "2026-08-27T23:47:40.191Z",
+  "notes": "20.2.19: WYJDŹ I AKTUALIZUJ jest stałym elementem UI i sam uruchamia check/download przed zamknięciem.",
   "frontend": {
-    "version": "20.2.18",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.18/FRONTEND_UPDATE_v20.2.18.zip",
-    "sha256": "76d478648177149b7702ed326f061a18a4e31cec2d8cca34a357ece1f84e22e3",
-    "sizeBytes": 9901760,
+    "version": "20.2.19",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.19/FRONTEND_UPDATE_v20.2.19.zip",
+    "sha256": "20afb3dafa6096280e79b46dec566ef72d9c47550f4129170f2117ad378d4729",
+    "sizeBytes": 9901928,
     "requiresDesktopMajor": 2
   },
   "desktop": {
