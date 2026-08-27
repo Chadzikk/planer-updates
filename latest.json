@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-08-27T22:29:17.282Z",
-  "notes": "Planer 20.2.15 / Desktop 2.1.13: updater uruchamia Task Scheduler dopiero przy faktycznym wyjsciu; detached PowerShell jest tylko fallbackiem.",
+  "publishedAt": "2026-08-27T23:03:51.670Z",
+  "notes": "Planer 20.2.16: realne reguly Jurczyk 102/103/105/108, AM/AN, wieniec drzwi, rurki co 0,5 m.",
   "frontend": {
-    "version": "20.2.15",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.15/FRONTEND_UPDATE_v20.2.15.zip",
-    "sha256": "23900d8f600614f0e16e828721bc5c8118f18f80e6d15c1f634f33da3caaf716",
-    "sizeBytes": 9901810,
+    "version": "20.2.16",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.16/FRONTEND_UPDATE_v20.2.16.zip",
+    "sha256": "3ed63a25427a458c0eaddb19efe8dd56f4b8f1aedeab4d5c99377bede0c55ec4",
+    "sizeBytes": 9901715,
     "requiresDesktopMajor": 2
   },
   "desktop": {
