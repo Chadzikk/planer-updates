@@ -1,23 +1,23 @@
 {
-  "schemaVersion": 1,
-  "channel": "stable",
-  "publishedAt": "2026-08-27T06:01:14.692Z",
-  "notes": "Planer 20.2.14 / Desktop 2.1.9: Excel bez partii, zapis po numerze ściany z kolumny F.",
-  "frontend": {
-    "version": "20.2.14",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.14/FRONTEND_UPDATE_v20.2.14.zip",
-    "sha256": "c2fd7fb7c70c0bf39c46e52a043936c6744e8a48fd3f258c00ac4716ad4ceeb4",
-    "sizeBytes": 9899339,
-    "requiresDesktopMajor": 2
-  },
-  "desktop": {
-    "version": "2.1.9",
-    "webVersion": "20.2.14",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.14/Planer-Scian-Setup-v20.2.14-DESKTOP-2.1.9-STATIC-x64.exe",
-    "sha256": "0a1d6d3482a79fc37b95f0a4d1e0431ceeb1f0f9dd5a26fbbcc05f617e848909",
-    "sizeBytes": 107190662,
-    "silentArgs": [
-      "/S"
-    ]
-  }
+    "schemaVersion":  1,
+    "channel":  "stable",
+    "publishedAt":  "2026-08-27T21:03:12.4971243Z",
+    "notes":  "Planer 20.2.14 / Desktop 2.1.10: trwaly start po aktualizacji; frontend i Excel bez zmian.",
+    "frontend":  {
+                     "version":  "20.2.14",
+                     "url":  "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.14/FRONTEND_UPDATE_v20.2.14.zip",
+                     "sha256":  "c2fd7fb7c70c0bf39c46e52a043936c6744e8a48fd3f258c00ac4716ad4ceeb4",
+                     "sizeBytes":  9899339,
+                     "requiresDesktopMajor":  2
+                 },
+    "desktop":  {
+                    "version":  "2.1.10",
+                    "webVersion":  "20.2.14",
+                    "url":  "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.14/Planer-Scian-Setup-v20.2.14-DESKTOP-2.1.10-STATIC-x64.exe",
+                    "sha256":  "fdc80e49cf34d28eb639685b0bd57938da09d7bbe71da0d8f2fe894c69676282",
+                    "sizeBytes":  107191390,
+                    "silentArgs":  [
+                                       "/S"
+                                   ]
+                }
 }
