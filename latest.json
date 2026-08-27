@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-08-26T07:24:05.090Z",
-  "notes": "Planer 20.2.13: przywrócony stały pasek EDYTUJ UI + menu. Desktop 2.1.8 bez zmian.",
+  "publishedAt": "2026-08-27T06:01:14.692Z",
+  "notes": "Planer 20.2.14 / Desktop 2.1.9: Excel bez partii, zapis po numerze ściany z kolumny F.",
   "frontend": {
-    "version": "20.2.13",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.13/FRONTEND_UPDATE_v20.2.13.zip",
-    "sha256": "41d284c82f09982288e94a86230c0387b9a16dd505bcf53d3c6cc7609533e4d1",
-    "sizeBytes": 9899318,
+    "version": "20.2.14",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.14/FRONTEND_UPDATE_v20.2.14.zip",
+    "sha256": "c2fd7fb7c70c0bf39c46e52a043936c6744e8a48fd3f258c00ac4716ad4ceeb4",
+    "sizeBytes": 9899339,
     "requiresDesktopMajor": 2
   },
   "desktop": {
-    "version": "2.1.8",
-    "webVersion": "20.2.12",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.12/Planer-Scian-Setup-v20.2.12-DESKTOP-2.1.8-STATIC-x64.exe",
-    "sha256": "9c882fc52756644c0077232b3ead134726df52067ae500e580943d46e493d0cb",
-    "sizeBytes": 107189828,
+    "version": "2.1.9",
+    "webVersion": "20.2.14",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.14/Planer-Scian-Setup-v20.2.14-DESKTOP-2.1.9-STATIC-x64.exe",
+    "sha256": "0a1d6d3482a79fc37b95f0a4d1e0431ceeb1f0f9dd5a26fbbcc05f617e848909",
+    "sizeBytes": 107190662,
     "silentArgs": [
       "/S"
     ]
