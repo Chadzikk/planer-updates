@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-08-27T22:14:24.952Z",
-  "notes": "Planer 20.2.15 / Desktop 2.1.12: zbrojenie AM/AN, wieniec otworow, rurki co 0,5 m, Excel multi-instance.",
+  "publishedAt": "2026-08-27T22:29:17.282Z",
+  "notes": "Planer 20.2.15 / Desktop 2.1.13: updater uruchamia Task Scheduler dopiero przy faktycznym wyjsciu; detached PowerShell jest tylko fallbackiem.",
   "frontend": {
     "version": "20.2.15",
     "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.15/FRONTEND_UPDATE_v20.2.15.zip",
@@ -11,11 +11,11 @@
     "requiresDesktopMajor": 2
   },
   "desktop": {
-    "version": "2.1.12",
+    "version": "2.1.13",
     "webVersion": "20.2.15",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.15/Planer-Scian-Setup-v20.2.15-DESKTOP-2.1.12-STATIC-x64.exe",
-    "sha256": "adf491aa093cdfba0492c8d66313de2e8bbba685d8e4684a793a133f3cfe0077",
-    "sizeBytes": 107195979,
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.15/Planer-Scian-Setup-v20.2.15-DESKTOP-2.1.13-STATIC-x64.exe",
+    "sha256": "c97aa4cd562d27015e17231746dd078fcd06fcde3be12b17b3290a702c6ee164",
+    "sizeBytes": 107196101,
     "silentArgs": [
       "/S"
     ]
