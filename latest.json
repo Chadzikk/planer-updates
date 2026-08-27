@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-08-27T23:03:51.670Z",
-  "notes": "Planer 20.2.16: realne reguly Jurczyk 102/103/105/108, AM/AN, wieniec drzwi, rurki co 0,5 m.",
+  "publishedAt": "2026-08-27T23:08:20.139Z",
+  "notes": "Planer 20.2.17: Jurczyk 102/103/105/108 + odporny scan-ahead 2Ø16/3Ø16/L + rurki 0,5 m.",
   "frontend": {
-    "version": "20.2.16",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.16/FRONTEND_UPDATE_v20.2.16.zip",
-    "sha256": "3ed63a25427a458c0eaddb19efe8dd56f4b8f1aedeab4d5c99377bede0c55ec4",
-    "sizeBytes": 9901715,
+    "version": "20.2.17",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.17/FRONTEND_UPDATE_v20.2.17.zip",
+    "sha256": "f671538edc873eb734858d1664ad8ea7a987ecf06ff0bd4e6eae85a718ed7513",
+    "sizeBytes": 9901766,
     "requiresDesktopMajor": 2
   },
   "desktop": {
