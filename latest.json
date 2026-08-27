@@ -1,23 +1,23 @@
 {
-    "schemaVersion":  1,
-    "channel":  "stable",
-    "publishedAt":  "2026-08-27T21:17:02.9726965Z",
-    "notes":  "Planer 20.2.14 / Desktop 2.1.11: updater uzbrajany od razu po pobraniu; detached PowerShell czeka na zamkniecie, instaluje i uruchamia Planer.",
-    "frontend":  {
-                     "version":  "20.2.14",
-                     "url":  "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.14/FRONTEND_UPDATE_v20.2.14.zip",
-                     "sha256":  "c2fd7fb7c70c0bf39c46e52a043936c6744e8a48fd3f258c00ac4716ad4ceeb4",
-                     "sizeBytes":  9899339,
-                     "requiresDesktopMajor":  2
-                 },
-    "desktop":  {
-                    "version":  "2.1.11",
-                    "webVersion":  "20.2.14",
-                    "url":  "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.14/Planer-Scian-Setup-v20.2.14-DESKTOP-2.1.11-STATIC-x64.exe",
-                    "sha256":  "de173ed333b1d92d1e76ca88ce0320a34c977c1891e5f10c7771aa6c9b568928",
-                    "sizeBytes":  107191845,
-                    "silentArgs":  [
-                                       "/S"
-                                   ]
-                }
+  "schemaVersion": 1,
+  "channel": "stable",
+  "publishedAt": "2026-08-27T22:14:24.952Z",
+  "notes": "Planer 20.2.15 / Desktop 2.1.12: zbrojenie AM/AN, wieniec otworow, rurki co 0,5 m, Excel multi-instance.",
+  "frontend": {
+    "version": "20.2.15",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.15/FRONTEND_UPDATE_v20.2.15.zip",
+    "sha256": "23900d8f600614f0e16e828721bc5c8118f18f80e6d15c1f634f33da3caaf716",
+    "sizeBytes": 9901810,
+    "requiresDesktopMajor": 2
+  },
+  "desktop": {
+    "version": "2.1.12",
+    "webVersion": "20.2.15",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.15/Planer-Scian-Setup-v20.2.15-DESKTOP-2.1.12-STATIC-x64.exe",
+    "sha256": "adf491aa093cdfba0492c8d66313de2e8bbba685d8e4684a793a133f3cfe0077",
+    "sizeBytes": 107195979,
+    "silentArgs": [
+      "/S"
+    ]
+  }
 }
