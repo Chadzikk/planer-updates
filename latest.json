@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-08-28T09:09:36.412Z",
-  "notes": "20.2.21 / Desktop 2.1.16: Q131 z geometrycznych poszerzeń belek nad oknami.",
+  "publishedAt": "2026-08-28T15:18:41.205Z",
+  "notes": "20.2.22 / Desktop 2.1.17: naprawa parsera PowerShell mostu Excel.",
   "frontend": {
-    "version": "20.2.21",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.21/FRONTEND_UPDATE_v20.2.21.zip",
-    "sha256": "ba7a95ce348e6ed32c8206eed145c0609cc93027fc7e7428835b4e7ea62a4916",
-    "sizeBytes": 9902920,
+    "version": "20.2.22",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.22/FRONTEND_UPDATE_v20.2.22.zip",
+    "sha256": "17c7d4aa6b902a5ddf81363a166effbf3781c79b494ee16412a372ec09b3f56c",
+    "sizeBytes": 9902933,
     "requiresDesktopMajor": 2
   },
   "desktop": {
-    "version": "2.1.16",
-    "webVersion": "20.2.21",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.21/Planer-Scian-Setup-v20.2.21-DESKTOP-2.1.16-STATIC-x64.exe",
-    "sha256": "fd9cc706d6b68b95e9cdaa742365e06d4abbf517be82e705202f01e55b0ba5fb",
-    "sizeBytes": 107199581,
+    "version": "2.1.17",
+    "webVersion": "20.2.22",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.22/Planer-Scian-Setup-v20.2.22-DESKTOP-2.1.17-STATIC-x64.exe",
+    "sha256": "a89d1c2aabb1e7e162a18846e19df1570c822846325d3829e80ea2f392a83a90",
+    "sizeBytes": 107199570,
     "silentArgs": [
       "/S"
     ]
