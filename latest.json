@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-08-28T16:01:36.526Z",
-  "notes": "20.2.25 / Desktop 2.1.20: Q131 - Excel liczy bazę, Planer wpisuje tylko dodatkową Q131 z poszerzeń.",
+  "publishedAt": "2026-08-28T17:40:33.518Z",
+  "notes": "20.2.27 / Desktop 2.1.21: poprawione zbrojenie otworów; osobny rysunek pręta nie jest liczony drugi raz; Q131 = 0,5 MB na rozpoczęte 2,00 m szerokości otworu przy poszerzeniu; poszerzenie bez opisu zbrojenia dodaje 2Ø12 po szerokość otworu + 1,00 m, bez zmiany normalnego wieńca.",
   "frontend": {
-    "version": "20.2.25",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.25/FRONTEND_UPDATE_v20.2.25.zip",
-    "sha256": "754fc817a9dafec3227c8dc48d9d0366ea1fe975b45df3daed53a0ca25d999a1",
-    "sizeBytes": 9902923,
+    "version": "20.2.27",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.27/FRONTEND_UPDATE_v20.2.27.zip",
+    "sha256": "9664ccbd75b03d22e7292246223eb4b7d75bbd05755e28c47bd56679c9520c70",
+    "sizeBytes": 9903377,
     "requiresDesktopMajor": 2
   },
   "desktop": {
-    "version": "2.1.20",
-    "webVersion": "20.2.25",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.25/Planer-Scian-Setup-v20.2.25-DESKTOP-2.1.20-STATIC-x64.exe",
-    "sha256": "4ad2f908707463669606b058aab9d649039af020dd0874d8bccdcebe7a191ec6",
-    "sizeBytes": 107200064,
+    "version": "2.1.21",
+    "webVersion": "20.2.27",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.27/Planer-Scian-Setup-v20.2.27-DESKTOP-2.1.21-STATIC-x64.exe",
+    "sha256": "8e26dbdb55cd4414743c874aba41c5a148b4d1a095f3e88cc2e4149a477478c2",
+    "sizeBytes": 107200461,
     "silentArgs": [
       "/S"
     ]
