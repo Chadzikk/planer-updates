@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-08-28T17:40:33.518Z",
-  "notes": "20.2.27 / Desktop 2.1.21: poprawione zbrojenie otworów; osobny rysunek pręta nie jest liczony drugi raz; Q131 = 0,5 MB na rozpoczęte 2,00 m szerokości otworu przy poszerzeniu; poszerzenie bez opisu zbrojenia dodaje 2Ø12 po szerokość otworu + 1,00 m, bez zmiany normalnego wieńca.",
+  "publishedAt": "2026-08-28T18:07:26.198Z",
+  "notes": "20.2.28 / Desktop 2.1.21: naprawa starego cache prefabrykacji. Po aktualizacji zapisane projekty z poprzednimi wynikami zbrojenia są automatycznie przeliczane z archiwalnych PDF, więc reguły 2Ø16, Q131 i fallback 2Ø12 faktycznie zastępują stare wartości.",
   "frontend": {
-    "version": "20.2.27",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.27/FRONTEND_UPDATE_v20.2.27.zip",
-    "sha256": "9664ccbd75b03d22e7292246223eb4b7d75bbd05755e28c47bd56679c9520c70",
-    "sizeBytes": 9903377,
+    "version": "20.2.28",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.28/FRONTEND_UPDATE_v20.2.28.zip",
+    "sha256": "16a637ee4b3452d7881155b5a59f8419c8e7d3c99badfc24cf82248efa33d3ec",
+    "sizeBytes": 9903421,
     "requiresDesktopMajor": 2
   },
   "desktop": {
     "version": "2.1.21",
-    "webVersion": "20.2.27",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.27/Planer-Scian-Setup-v20.2.27-DESKTOP-2.1.21-STATIC-x64.exe",
-    "sha256": "8e26dbdb55cd4414743c874aba41c5a148b4d1a095f3e88cc2e4149a477478c2",
-    "sizeBytes": 107200461,
+    "webVersion": "20.2.28",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.28/Planer-Scian-Setup-v20.2.28-DESKTOP-2.1.21-STATIC-x64.exe",
+    "sha256": "4008939ee382158996f60f8869c7dffb70ebcbd47ec71fcfe6faff1daefbc1c5",
+    "sizeBytes": 107200502,
     "silentArgs": [
       "/S"
     ]
