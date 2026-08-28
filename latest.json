@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-08-27T23:47:40.191Z",
-  "notes": "20.2.19: WYJDŹ I AKTUALIZUJ jest stałym elementem UI i sam uruchamia check/download przed zamknięciem.",
+  "publishedAt": "2026-08-28T03:45:11.633Z",
+  "notes": "20.2.20 / Desktop 2.1.15: potwierdzony Windows Shell handoff przed zamknięciem Planera.",
   "frontend": {
-    "version": "20.2.19",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.19/FRONTEND_UPDATE_v20.2.19.zip",
-    "sha256": "20afb3dafa6096280e79b46dec566ef72d9c47550f4129170f2117ad378d4729",
-    "sizeBytes": 9901928,
+    "version": "20.2.20",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.20/FRONTEND_UPDATE_v20.2.20.zip",
+    "sha256": "8a6e9b1dec18ea7b8b18fb492bb8be5253ab927996d3aeadba6fb568d7ac28e0",
+    "sizeBytes": 9901773,
     "requiresDesktopMajor": 2
   },
   "desktop": {
-    "version": "2.1.14",
-    "webVersion": "20.2.18",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.18/Planer-Scian-Setup-v20.2.18-DESKTOP-2.1.14-STATIC-x64.exe",
-    "sha256": "77ce1ddbd24521192da7cae472b7e45eb7e01c59224f50b4870d38105356d4b8",
-    "sizeBytes": 107197206,
+    "version": "2.1.15",
+    "webVersion": "20.2.20",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.20/Planer-Scian-Setup-v20.2.20-DESKTOP-2.1.15-STATIC-x64.exe",
+    "sha256": "08e2eb683c31fa898c5f6d738d5bb88ecfa698f57ebd593eba84dacbda319fe1",
+    "sizeBytes": 107197900,
     "silentArgs": [
       "/S"
     ]
