@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-08-28T18:07:26.198Z",
-  "notes": "20.2.28 / Desktop 2.1.21: naprawa starego cache prefabrykacji. Po aktualizacji zapisane projekty z poprzednimi wynikami zbrojenia są automatycznie przeliczane z archiwalnych PDF, więc reguły 2Ø16, Q131 i fallback 2Ø12 faktycznie zastępują stare wartości.",
+  "publishedAt": "2026-08-28T18:48:56.808Z",
+  "notes": "20.2.29 / Desktop 2.1.21: poprawione materiały z kart ścian. Wieniec: pełna długość ściany do 0,5 m i osobne niższe wieńce tylko z geometrii. Q131 jest liczone osobno dla rzeczywistego poszerzenia nad i pod otworem. 101: kontrola 44,0 m Ø16, 2,0 MB Q131, 6,5 m wieńca; 103: 1,0 MB Q131 i 7,0 m wieńca. Dolne poszerzenie nie dubluje fallbacku 2Ø12. Cache prefabrykacji jest ponownie przeliczany.",
   "frontend": {
-    "version": "20.2.28",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.28/FRONTEND_UPDATE_v20.2.28.zip",
-    "sha256": "16a637ee4b3452d7881155b5a59f8419c8e7d3c99badfc24cf82248efa33d3ec",
-    "sizeBytes": 9903421,
+    "version": "20.2.29",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.29/FRONTEND_UPDATE_v20.2.29.zip",
+    "sha256": "740d36140f5ffaeb402d1f530edcfa4f9463049992283c1a64d4e41a4ce92515",
+    "sizeBytes": 9903562,
     "requiresDesktopMajor": 2
   },
   "desktop": {
     "version": "2.1.21",
-    "webVersion": "20.2.28",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.28/Planer-Scian-Setup-v20.2.28-DESKTOP-2.1.21-STATIC-x64.exe",
-    "sha256": "4008939ee382158996f60f8869c7dffb70ebcbd47ec71fcfe6faff1daefbc1c5",
-    "sizeBytes": 107200502,
+    "webVersion": "20.2.29",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.29/Planer-Scian-Setup-v20.2.29-DESKTOP-2.1.21-STATIC-x64.exe",
+    "sha256": "59966fea794e8ad6c88ed156a9acf3c263ef5afa5b45d9842f6ed1f2984b4db3",
+    "sizeBytes": 107200653,
     "silentArgs": [
       "/S"
     ]
