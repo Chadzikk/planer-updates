@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-08-28T03:45:11.633Z",
-  "notes": "20.2.20 / Desktop 2.1.15: potwierdzony Windows Shell handoff przed zamknięciem Planera.",
+  "publishedAt": "2026-08-28T09:09:36.412Z",
+  "notes": "20.2.21 / Desktop 2.1.16: Q131 z geometrycznych poszerzeń belek nad oknami.",
   "frontend": {
-    "version": "20.2.20",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.20/FRONTEND_UPDATE_v20.2.20.zip",
-    "sha256": "8a6e9b1dec18ea7b8b18fb492bb8be5253ab927996d3aeadba6fb568d7ac28e0",
-    "sizeBytes": 9901773,
+    "version": "20.2.21",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.21/FRONTEND_UPDATE_v20.2.21.zip",
+    "sha256": "ba7a95ce348e6ed32c8206eed145c0609cc93027fc7e7428835b4e7ea62a4916",
+    "sizeBytes": 9902920,
     "requiresDesktopMajor": 2
   },
   "desktop": {
-    "version": "2.1.15",
-    "webVersion": "20.2.20",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.20/Planer-Scian-Setup-v20.2.20-DESKTOP-2.1.15-STATIC-x64.exe",
-    "sha256": "08e2eb683c31fa898c5f6d738d5bb88ecfa698f57ebd593eba84dacbda319fe1",
-    "sizeBytes": 107197900,
+    "version": "2.1.16",
+    "webVersion": "20.2.21",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.21/Planer-Scian-Setup-v20.2.21-DESKTOP-2.1.16-STATIC-x64.exe",
+    "sha256": "fd9cc706d6b68b95e9cdaa742365e06d4abbf517be82e705202f01e55b0ba5fb",
+    "sizeBytes": 107199581,
     "silentArgs": [
       "/S"
     ]
