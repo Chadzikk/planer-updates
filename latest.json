@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-08-28T15:18:41.205Z",
-  "notes": "20.2.22 / Desktop 2.1.17: naprawa parsera PowerShell mostu Excel.",
+  "publishedAt": "2026-08-28T15:33:15.616Z",
+  "notes": "20.2.23 / Desktop 2.1.18: Planer zachowuje formatowanie komórek STANY i nie wywołuje NumberFormatLocal.",
   "frontend": {
-    "version": "20.2.22",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.22/FRONTEND_UPDATE_v20.2.22.zip",
-    "sha256": "17c7d4aa6b902a5ddf81363a166effbf3781c79b494ee16412a372ec09b3f56c",
-    "sizeBytes": 9902933,
+    "version": "20.2.23",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.23/FRONTEND_UPDATE_v20.2.23.zip",
+    "sha256": "d24866bb87611377beafadf926e6053dfd2611845bd2c2acdc91b1aa21932445",
+    "sizeBytes": 9902916,
     "requiresDesktopMajor": 2
   },
   "desktop": {
-    "version": "2.1.17",
-    "webVersion": "20.2.22",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.22/Planer-Scian-Setup-v20.2.22-DESKTOP-2.1.17-STATIC-x64.exe",
-    "sha256": "a89d1c2aabb1e7e162a18846e19df1570c822846325d3829e80ea2f392a83a90",
-    "sizeBytes": 107199570,
+    "version": "2.1.18",
+    "webVersion": "20.2.23",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.23/Planer-Scian-Setup-v20.2.23-DESKTOP-2.1.18-STATIC-x64.exe",
+    "sha256": "a8e536a4fcff1f1bd2f0af60ffd49039d9029b87889b78fe220900b30e049994",
+    "sizeBytes": 107199557,
     "silentArgs": [
       "/S"
     ]
