@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-08-28T15:33:15.616Z",
-  "notes": "20.2.23 / Desktop 2.1.18: Planer zachowuje formatowanie komórek STANY i nie wywołuje NumberFormatLocal.",
+  "publishedAt": "2026-08-28T15:47:25.638Z",
+  "notes": "20.2.24 / Desktop 2.1.19: poprawka tablic COM Excela (scalar/1D/2D), bez zmiany formatowania komórek.",
   "frontend": {
-    "version": "20.2.23",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.23/FRONTEND_UPDATE_v20.2.23.zip",
-    "sha256": "d24866bb87611377beafadf926e6053dfd2611845bd2c2acdc91b1aa21932445",
-    "sizeBytes": 9902916,
+    "version": "20.2.24",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.24/FRONTEND_UPDATE_v20.2.24.zip",
+    "sha256": "919cf25055909ef474f0512d2bf634f46b918e7d31657a23af30f8109154b810",
+    "sizeBytes": 9902927,
     "requiresDesktopMajor": 2
   },
   "desktop": {
-    "version": "2.1.18",
-    "webVersion": "20.2.23",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.23/Planer-Scian-Setup-v20.2.23-DESKTOP-2.1.18-STATIC-x64.exe",
-    "sha256": "a8e536a4fcff1f1bd2f0af60ffd49039d9029b87889b78fe220900b30e049994",
-    "sizeBytes": 107199557,
+    "version": "2.1.19",
+    "webVersion": "20.2.24",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.24/Planer-Scian-Setup-v20.2.24-DESKTOP-2.1.19-STATIC-x64.exe",
+    "sha256": "c63ea589394f118deac54e7b64d6d6c11a04777b47ae0bcd2fa6f8942a37a24b",
+    "sizeBytes": 107200098,
     "silentArgs": [
       "/S"
     ]
