@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-08-29T03:56:04.748Z",
-  "notes": "20.2.31 / Desktop 2.1.21: domknięty odczyt Ø16 i Q131 z rzeczywistej geometrii kart. Drugi przestrzenny przebieg odzyskuje rozbite opisy prętów (m.in. 4Ø16 na 101). Q131 liczy niezależnie TOP/BOTTOM: niski pas >5 do 25 cm potwierdza dół, poziomy Ø16 przy otworze potwierdza górę. Kontrole: 101 = 44,0 MB Ø16 i +2,0 MB Q131; 103 = 9,2 MB Ø16 i +1,0 MB Q131; 105 = 3,8 MB Ø16 i tylko +0,5 MB Q131; drzwi do posadzki mają 1×Ø16; wysokie okno nie dostaje automatycznego dolnego Ø16. Cache prefabrykacji jest ponownie przeliczany.",
+  "publishedAt": "2026-08-29T11:19:18.847Z",
+  "notes": "20.2.32 / Desktop 2.1.21: usunięte podwójne liczenie tego samego fizycznego opisu Ø16 przez podstawowy i przestrzenny przebieg odczytu. Q131 z pociętych fragmentów konturu jest scalane do jednej pozycji na otwór i stronę. Kontrola 101: 44,0 MB Ø16 i 2,0 MB Q131.",
   "frontend": {
-    "version": "20.2.31",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.31/FRONTEND_UPDATE_v20.2.31.zip",
-    "sha256": "8cfc1ae283a5b1faee9b042f4790059a2b8ca4a337730731c7be0fac785e5513",
-    "sizeBytes": 9904366,
+    "version": "20.2.32",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.32/FRONTEND_UPDATE_v20.2.32.zip",
+    "sha256": "e7ae6c72dcf18d8cd254805c006662ee5b5e672e74548fe657992df296a4729e",
+    "sizeBytes": 9904525,
     "requiresDesktopMajor": 2
   },
   "desktop": {
     "version": "2.1.21",
-    "webVersion": "20.2.31",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.31/Planer-Scian-Setup-v20.2.31-DESKTOP-2.1.21-STATIC-x64.exe",
-    "sha256": "765f2198a93d70d6bbf5851cd7f3d885ec893ab220677bae7734c7f089487d57",
-    "sizeBytes": 107201284,
+    "webVersion": "20.2.32",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.32/Planer-Scian-Setup-v20.2.32-DESKTOP-2.1.21-STATIC-x64.exe",
+    "sha256": "8a68d608f82dadfa7c66464c0a6336d971262857b66584f606d320f0d3845993",
+    "sizeBytes": 107201412,
     "silentArgs": [
       "/S"
     ]
