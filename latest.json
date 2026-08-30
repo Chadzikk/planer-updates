@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-08-30T08:53:35.665Z",
-  "notes": "20.2.34 / Desktop 2.1.21: pręty pokazane poza obrysem ściany są traktowane jako drugi widok tych samych fizycznych prętów. Detal może uzupełnić L/powiązanie, ale nie podwaja metrów ani sztuk. Typowy detal dolnego 2Ø16 pozostaje źródłem informacji, natomiast materiał liczy się tylko raz z reguły otworu. Zachowana regresja 101: 44,0 MB Ø16 i 2,0 MB dodatkowej Q131.",
+  "publishedAt": "2026-08-30T14:00:19.509Z",
+  "notes": "20.2.34 / Desktop 2.1.21: ogólna deduplikacja prętów na wszystkich ścianach. Widok poza obrysem może uzupełnić dane tego samego fizycznego pręta, ale nie podwaja metrów ani sztuk nawet przy błędnej klasyfikacji WALL/DETAIL. Numery 101 i 103 są wyłącznie przypadkami regresyjnymi, bez wyjątków po wallId. Ø8 bez zmian.",
   "frontend": {
     "version": "20.2.34",
     "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.34/FRONTEND_UPDATE_v20.2.34.zip",
-    "sha256": "35281b281bac249ab183582a95362f63f2f1b795c7c3ef4a19a00e9e7ca5e8dc",
-    "sizeBytes": 9904877,
+    "sha256": "7a8366d7b7dda00b5f174c8c70c265bad476dab004f795bae31f785fa79b5115",
+    "sizeBytes": 9904936,
     "requiresDesktopMajor": 2
   },
   "desktop": {
     "version": "2.1.21",
     "webVersion": "20.2.34",
     "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.34/Planer-Scian-Setup-v20.2.34-DESKTOP-2.1.21-STATIC-x64.exe",
-    "sha256": "4c45276831c4640694332e29473264b5bc63d7d03cda12b2f99e821e6f1d708d",
-    "sizeBytes": 107201751,
+    "sha256": "ff91a7b4e8bf535a6bdf1d96ea093a6f04a6f8a1f70e1bbe62a5c7ab9359284e",
+    "sizeBytes": 107201803,
     "silentArgs": [
       "/S"
     ]
