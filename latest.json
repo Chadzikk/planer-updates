@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-08-30T14:00:19.509Z",
-  "notes": "20.2.34 / Desktop 2.1.21: ogólna deduplikacja prętów na wszystkich ścianach. Widok poza obrysem może uzupełnić dane tego samego fizycznego pręta, ale nie podwaja metrów ani sztuk nawet przy błędnej klasyfikacji WALL/DETAIL. Numery 101 i 103 są wyłącznie przypadkami regresyjnymi, bez wyjątków po wallId. Ø8 bez zmian.",
+  "publishedAt": "2026-08-30T19:57:15.824Z",
+  "notes": "20.2.35 / Desktop 2.1.22: awaryjny pomiar poziomego zbrojenia bez jawnego L z wektorowej długości pobliskiego pręta/detalu. Pomiar jest używany tylko przy jednoznacznym kandydacie; wynik zawsze zaokrągla się w górę do 0,5 m. Jawne L ma pierwszeństwo. Przy niejednoznaczności Planer nie zgaduje i pomija pozycję z ostrzeżeniem. Dotychczasowe reguły otworów, Q131 i deduplikacja WALL/DETAIL pozostają.",
   "frontend": {
-    "version": "20.2.34",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.34/FRONTEND_UPDATE_v20.2.34.zip",
-    "sha256": "7a8366d7b7dda00b5f174c8c70c265bad476dab004f795bae31f785fa79b5115",
-    "sizeBytes": 9904936,
+    "version": "20.2.35",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.35/FRONTEND_UPDATE_v20.2.35.zip",
+    "sha256": "0d9b81da42873927c2f27845bab51ec914248e0cc9c21d6cb52c53eec089a53a",
+    "sizeBytes": 9905706,
     "requiresDesktopMajor": 2
   },
   "desktop": {
-    "version": "2.1.21",
-    "webVersion": "20.2.34",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.34/Planer-Scian-Setup-v20.2.34-DESKTOP-2.1.21-STATIC-x64.exe",
-    "sha256": "ff91a7b4e8bf535a6bdf1d96ea093a6f04a6f8a1f70e1bbe62a5c7ab9359284e",
-    "sizeBytes": 107201803,
+    "version": "2.1.22",
+    "webVersion": "20.2.35",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.35/Planer-Scian-Setup-v20.2.35-DESKTOP-2.1.22-STATIC-x64.exe",
+    "sha256": "b08c88fd3d5b2de499f13df344e70072db318f75caf491608ade34ead38e3061",
+    "sizeBytes": 107202487,
     "silentArgs": [
       "/S"
     ]
