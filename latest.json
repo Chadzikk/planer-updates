@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-08-29T11:19:18.847Z",
-  "notes": "20.2.32 / Desktop 2.1.21: usunięte podwójne liczenie tego samego fizycznego opisu Ø16 przez podstawowy i przestrzenny przebieg odczytu. Q131 z pociętych fragmentów konturu jest scalane do jednej pozycji na otwór i stronę. Kontrola 101: 44,0 MB Ø16 i 2,0 MB Q131.",
+  "publishedAt": "2026-08-30T08:53:35.665Z",
+  "notes": "20.2.34 / Desktop 2.1.21: pręty pokazane poza obrysem ściany są traktowane jako drugi widok tych samych fizycznych prętów. Detal może uzupełnić L/powiązanie, ale nie podwaja metrów ani sztuk. Typowy detal dolnego 2Ø16 pozostaje źródłem informacji, natomiast materiał liczy się tylko raz z reguły otworu. Zachowana regresja 101: 44,0 MB Ø16 i 2,0 MB dodatkowej Q131.",
   "frontend": {
-    "version": "20.2.32",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.32/FRONTEND_UPDATE_v20.2.32.zip",
-    "sha256": "e7ae6c72dcf18d8cd254805c006662ee5b5e672e74548fe657992df296a4729e",
-    "sizeBytes": 9904525,
+    "version": "20.2.34",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.34/FRONTEND_UPDATE_v20.2.34.zip",
+    "sha256": "35281b281bac249ab183582a95362f63f2f1b795c7c3ef4a19a00e9e7ca5e8dc",
+    "sizeBytes": 9904877,
     "requiresDesktopMajor": 2
   },
   "desktop": {
     "version": "2.1.21",
-    "webVersion": "20.2.32",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.32/Planer-Scian-Setup-v20.2.32-DESKTOP-2.1.21-STATIC-x64.exe",
-    "sha256": "8a68d608f82dadfa7c66464c0a6336d971262857b66584f606d320f0d3845993",
-    "sizeBytes": 107201412,
+    "webVersion": "20.2.34",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.34/Planer-Scian-Setup-v20.2.34-DESKTOP-2.1.21-STATIC-x64.exe",
+    "sha256": "4c45276831c4640694332e29473264b5bc63d7d03cda12b2f99e821e6f1d708d",
+    "sizeBytes": 107201751,
     "silentArgs": [
       "/S"
     ]
