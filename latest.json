@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-08-31T18:26:23.022Z",
-  "notes": "20.2.37 / Desktop 2.1.24: parser Ø16 nie używa już czerwonych cyfr wymiarowych jako opisów zbrojenia. Do semantycznego odczytu nØ12/nØ16/L trafiają tylko liczby potwierdzone czarnymi stroke-path. Dodatkowo pionowy pręt pokazany przy ścianie i drugi raz jako jawny detal L jest scalany do jednej fizycznej pozycji, z pierwszeństwem jawnego L. Regresje obejmują ścianę 113 oraz przypadek 116, gdzie fałszywe wymiary nie mogą tworzyć dziesiątek metrów Ø16. Cache prefabrykacji v10 wymusza ponowne przeliczenie.",
+  "publishedAt": "2026-08-31T19:00:20.881Z",
+  "notes": "20.2.38 / Desktop 2.1.25: uproszczony, fail-closed odczyt prętów Ø16. Materiał z poziomego opisu powstaje tylko z zwartego nØ16 L=...; luźne cyfry z wymiarowania oraz samo nØ16 bez L nie tworzą metrów. Produkcyjny parser nie mierzy już dowolnej czarnej linii jako pręta. Dolne Ø16 nadal wynika z pewnej geometrii otworu, a jawny detal L może reprezentować drugi widok tego samego pręta. Regresja obejmuje przypadek 116 i brak fałszywych Ø16 na ścianach bez jawnego zbrojenia. Cache v11 wymusza ponowne przeliczenie.",
   "frontend": {
-    "version": "20.2.37",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.37/FRONTEND_UPDATE_v20.2.37.zip",
-    "sha256": "290900137e5a4c9c3d982cae5226ee9f1282bb15ddb9242314a2f8bfb8ad251a",
-    "sizeBytes": 9906070,
+    "version": "20.2.38",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.38/FRONTEND_UPDATE_v20.2.38.zip",
+    "sha256": "56d17bcaaaaa28840ec1d83aba4dbac5a8a78f8c7e750e6c509cdb0c750e9afb",
+    "sizeBytes": 9905440,
     "requiresDesktopMajor": 2
   },
   "desktop": {
-    "version": "2.1.24",
-    "webVersion": "20.2.37",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.37/Planer-Scian-Setup-v20.2.37-DESKTOP-2.1.24-STATIC-x64.exe",
-    "sha256": "81b6adaf0d734c0079cb783671d6cc68dd8381286a6bb91aa1971f3cb7a7d47f",
-    "sizeBytes": 107202761,
+    "version": "2.1.25",
+    "webVersion": "20.2.38",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.38/Planer-Scian-Setup-v20.2.38-DESKTOP-2.1.25-STATIC-x64.exe",
+    "sha256": "9e47838f600bc3ff7833110e73bd23497c8933979fde706a212609dd3e7552b5",
+    "sizeBytes": 107202258,
     "silentArgs": [
       "/S"
     ]
