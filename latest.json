@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-08-31T19:33:19.492Z",
-  "notes": "20.2.39 / Desktop 2.1.26: ogólna poprawka rozpoznawania strokowanej cyfry 4 w tabeli WAGA. W części kart CAD cyfra 4 jest złożona z dwóch osobnych ścieżek i stary raster potrafił ją zgubić, przez co np. x,x4 było skracane do dwóch cyfr i interpretowane jako 0,xx t. Nowa reguła rozpoznaje jednoznaczną geometrię cyfry 4 bez wyjątków po numerach ścian. Regresja używa rzeczywistych wektorów wag 3,64 T i 2,94 T.",
+  "publishedAt": "2026-09-01T17:50:02.736Z",
+  "notes": "20.2.40 / Desktop 2.1.27: ogólna reguła zbrojenia belki bez wyjątków po numerze ściany. Gdy wolna wysokość belki nad otworem jest do 50 cm włącznie, pozostaje poszerzenie Q131 + dodatkowe 2 pręty. Powyżej 50 cm nie dokładamy tego zestawu i otwór dostaje osobny lokalny wieniec. Pionowy opis 2Ø16 bez jawnego L liczy każdy pręt jako wysokość ściany +50 cm, następnie w górę do 0,5 m. Dolne poszerzenia pozostają bez zmian. Cache prefabrykacji v12 wymusza ponowne przeliczenie.",
   "frontend": {
-    "version": "20.2.39",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.39/FRONTEND_UPDATE_v20.2.39.zip",
-    "sha256": "067afb4f15f117f08fa8ba25b9f0f31dfb5056cb861380743411530d384ea938",
-    "sizeBytes": 9905686,
+    "version": "20.2.40",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.40/FRONTEND_UPDATE_v20.2.40.zip",
+    "sha256": "58718e9b1ea934a21b18aecb17e3768bbef3bb0c042bf25e0b6bae2b05a80f70",
+    "sizeBytes": 9905907,
     "requiresDesktopMajor": 2
   },
   "desktop": {
-    "version": "2.1.26",
-    "webVersion": "20.2.39",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.39/Planer-Scian-Setup-v20.2.39-DESKTOP-2.1.26-STATIC-x64.exe",
-    "sha256": "3be7d3e53019444865febb49a8b1a0e44255a9d58450fbb45886687bd121d0aa",
-    "sizeBytes": 107202433,
+    "version": "2.1.27",
+    "webVersion": "20.2.40",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.40/Planer-Scian-Setup-v20.2.40-DESKTOP-2.1.27-STATIC-x64.exe",
+    "sha256": "28612cf3eb2b612d60713f7fdc3221c19c6e71f7c1cefb82126e5937854b2eb9",
+    "sizeBytes": 107202636,
     "silentArgs": [
       "/S"
     ]
