@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-09-03T18:49:42.405Z",
-  "notes": "20.2.43 / Desktop 2.1.30: czerwone R przy rzeczywistej pionowej trasie oznacza rurę podstawową + jedną rurę rezerwową. Każda fizyczna rurka jest liczona osobno i zaokrąglana materiałowo do 0,5 m; np. H=298,5 cm daje 2 x 3,0 m = 6,0 m RURY w Excelu AG. R nadal daje dokładnie 1 ZCL w AJ i nie dubluje puszki. Zawiera poprawki 20.2.42: pionowe 2Ø16 w obu kierunkach cyfr i przypadek ściany 116 liczony raz jako 7,0 mb Ø16.",
+  "publishedAt": "2026-09-03T19:01:43.112Z",
+  "notes": "20.2.44 / Desktop 2.1.31: R oznacza jedną osobną rurkę ZCL. Rura zasilająca dochodząca do R nie jest już sztucznie dublowana na pełną wysokość; Planer rozpoznaje jej rzeczywisty przebieg z geometrii CAD, traktuje R jako punkt końcowy trasy i liczy tylko zwalidowany odcinek od krawędzi/puszki do R. Excel AG dostaje sumę metrów obu fizycznych rurek, każdej zaokrąglonej materiałowo do 0,5 m; AJ nadal dostaje 1 ZCL za jedno R.",
   "frontend": {
-    "version": "20.2.43",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.43/FRONTEND_UPDATE_v20.2.43.zip",
-    "sha256": "013467cf010d672979758bcf19bfee172c4ae8c19ca603c168088c3f0d93580e",
-    "sizeBytes": 9908562,
+    "version": "20.2.44",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.44/FRONTEND_UPDATE_v20.2.44.zip",
+    "sha256": "6368dcfdc59c7be5d1686cdc7809a28d65121199d330ba3f01674cb3c5a17642",
+    "sizeBytes": 9908519,
     "requiresDesktopMajor": 2
   },
   "desktop": {
-    "version": "2.1.30",
-    "webVersion": "20.2.43",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.43/Planer-Scian-Setup-v20.2.43-DESKTOP-2.1.30-STATIC-x64.exe",
-    "sha256": "94002f06863b07ac4510b8e86fa675f2c9d1e175e999b78332a560fb56f4d083",
-    "sizeBytes": 107204902,
+    "version": "2.1.31",
+    "webVersion": "20.2.44",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.44/Planer-Scian-Setup-v20.2.44-DESKTOP-2.1.31-STATIC-x64.exe",
+    "sha256": "2483b5933db289361e8f3b358934742a9a096a07188af9aaf9b019dc56888c04",
+    "sizeBytes": 107204954,
     "silentArgs": [
       "/S"
     ]
