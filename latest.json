@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-09-02T18:50:16.976Z",
-  "notes": "20.2.42 / Desktop 2.1.29: ogólna naprawa pionowych opisów zbrojenia w obu kierunkach CAD. Warstwa zbrojenia odzyskuje Ø12/Ø16 z odwróconej sekwencji i ma kierunkowo neutralny recovery zwartego pionowego 2Ø16, bez wyjątków po numerze ściany i bez interpretowania dowolnych wymiarów. Symbol ZCL prostokąt+R może być złożony z wielu osobnych czerwonych stroków CAD; R oznacza pełnowysokościową rurę i 1 ZCL, a ściana >305 cm z pełną pionową rurą dostaje dodatkowe 1 ZCL. zclCount przechodzi do AJ z read-back/rollback. Cache prefabrykacji v14 wymusza ponowne przeliczenie.",
+  "publishedAt": "2026-09-03T18:49:42.405Z",
+  "notes": "20.2.43 / Desktop 2.1.30: czerwone R przy rzeczywistej pionowej trasie oznacza rurę podstawową + jedną rurę rezerwową. Każda fizyczna rurka jest liczona osobno i zaokrąglana materiałowo do 0,5 m; np. H=298,5 cm daje 2 x 3,0 m = 6,0 m RURY w Excelu AG. R nadal daje dokładnie 1 ZCL w AJ i nie dubluje puszki. Zawiera poprawki 20.2.42: pionowe 2Ø16 w obu kierunkach cyfr i przypadek ściany 116 liczony raz jako 7,0 mb Ø16.",
   "frontend": {
-    "version": "20.2.42",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.42/FRONTEND_UPDATE_v20.2.42.zip",
-    "sha256": "8ebcb8649ee172b1ccfc02155290f851fcfde1d30b4f0a4075d03f483477a60c",
-    "sizeBytes": 9908066,
+    "version": "20.2.43",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.43/FRONTEND_UPDATE_v20.2.43.zip",
+    "sha256": "013467cf010d672979758bcf19bfee172c4ae8c19ca603c168088c3f0d93580e",
+    "sizeBytes": 9908562,
     "requiresDesktopMajor": 2
   },
   "desktop": {
-    "version": "2.1.29",
-    "webVersion": "20.2.42",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.42/Planer-Scian-Setup-v20.2.42-DESKTOP-2.1.29-STATIC-x64.exe",
-    "sha256": "5ba46990b1757385c6eeb4f5e1d47a5749f3c214ba3338880c1d79778df49dd2",
-    "sizeBytes": 107204601,
+    "version": "2.1.30",
+    "webVersion": "20.2.43",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.43/Planer-Scian-Setup-v20.2.43-DESKTOP-2.1.30-STATIC-x64.exe",
+    "sha256": "94002f06863b07ac4510b8e86fa675f2c9d1e175e999b78332a560fb56f4d083",
+    "sizeBytes": 107204902,
     "silentArgs": [
       "/S"
     ]
