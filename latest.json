@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-09-03T19:01:43.112Z",
-  "notes": "20.2.44 / Desktop 2.1.31: R oznacza jedną osobną rurkę ZCL. Rura zasilająca dochodząca do R nie jest już sztucznie dublowana na pełną wysokość; Planer rozpoznaje jej rzeczywisty przebieg z geometrii CAD, traktuje R jako punkt końcowy trasy i liczy tylko zwalidowany odcinek od krawędzi/puszki do R. Excel AG dostaje sumę metrów obu fizycznych rurek, każdej zaokrąglonej materiałowo do 0,5 m; AJ nadal dostaje 1 ZCL za jedno R.",
+  "publishedAt": "2026-09-04T17:57:46.072Z",
+  "notes": "20.2.45 / Desktop 2.1.32: poprawione rozpoznawanie R/ZCL z realnych kart CAD, gdy litera R jest rozbita na kilka osobnych pathów. Detektor składa R z lokalnych czerwonych segmentów i dopiero przypisuje je do najbliższej rzeczywistej trasy. Jedno R = 1 ZCL; rurka ZCL oraz rzeczywista rura zasilająca do R są liczone do metrów RURY w Excelu AG.",
   "frontend": {
-    "version": "20.2.44",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.44/FRONTEND_UPDATE_v20.2.44.zip",
-    "sha256": "6368dcfdc59c7be5d1686cdc7809a28d65121199d330ba3f01674cb3c5a17642",
-    "sizeBytes": 9908519,
+    "version": "20.2.45",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.45/FRONTEND_UPDATE_v20.2.45.zip",
+    "sha256": "53a3d74eb3dd6b27c909c921f76b69fa4a68c2c7ec264b7bbd106cc0215dd284",
+    "sizeBytes": 9909093,
     "requiresDesktopMajor": 2
   },
   "desktop": {
-    "version": "2.1.31",
-    "webVersion": "20.2.44",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.44/Planer-Scian-Setup-v20.2.44-DESKTOP-2.1.31-STATIC-x64.exe",
-    "sha256": "2483b5933db289361e8f3b358934742a9a096a07188af9aaf9b019dc56888c04",
-    "sizeBytes": 107204954,
+    "version": "2.1.32",
+    "webVersion": "20.2.45",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.45/Planer-Scian-Setup-v20.2.45-DESKTOP-2.1.32-STATIC-x64.exe",
+    "sha256": "32a88afb524d0103d6e8011755b35858a3e2ffc23ac79077dec838c45f927acf",
+    "sizeBytes": 107205387,
     "silentArgs": [
       "/S"
     ]
