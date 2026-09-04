@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-09-04T17:57:46.072Z",
-  "notes": "20.2.45 / Desktop 2.1.32: poprawione rozpoznawanie R/ZCL z realnych kart CAD, gdy litera R jest rozbita na kilka osobnych pathów. Detektor składa R z lokalnych czerwonych segmentów i dopiero przypisuje je do najbliższej rzeczywistej trasy. Jedno R = 1 ZCL; rurka ZCL oraz rzeczywista rura zasilająca do R są liczone do metrów RURY w Excelu AG.",
+  "publishedAt": "2026-09-04T18:15:05.202Z",
+  "notes": "20.2.46 / Desktop 2.1.33: poprawka zawyżonych RUR i ZCL. Usunięty został zbyt szeroki globalny skaner luźnych czerwonych segmentów, który mógł składać przypadkową geometrię CAD w fałszywe R. R musi teraz mieć pewny korpus (trzon + góra + środek); tylko ukośna noga może pochodzić z osobnego pathu. Prawdziwe R ze ściany 103 nadal jest wykrywane, jedno R = 1 ZCL, a realne zasilanie do R pozostaje osobną rurą z geometrii.",
   "frontend": {
-    "version": "20.2.45",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.45/FRONTEND_UPDATE_v20.2.45.zip",
-    "sha256": "53a3d74eb3dd6b27c909c921f76b69fa4a68c2c7ec264b7bbd106cc0215dd284",
-    "sizeBytes": 9909093,
+    "version": "20.2.46",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.46/FRONTEND_UPDATE_v20.2.46.zip",
+    "sha256": "9209a9ca6aaee8234cff3e1d18f2b331a619181601c22be0ed91891706d26c06",
+    "sizeBytes": 9908530,
     "requiresDesktopMajor": 2
   },
   "desktop": {
-    "version": "2.1.32",
-    "webVersion": "20.2.45",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.45/Planer-Scian-Setup-v20.2.45-DESKTOP-2.1.32-STATIC-x64.exe",
-    "sha256": "32a88afb524d0103d6e8011755b35858a3e2ffc23ac79077dec838c45f927acf",
-    "sizeBytes": 107205387,
+    "version": "2.1.33",
+    "webVersion": "20.2.46",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.46/Planer-Scian-Setup-v20.2.46-DESKTOP-2.1.33-STATIC-x64.exe",
+    "sha256": "f1039984a97d6f91e147c2a72b90cd01447e8f9596d745a9763890a671896fe7",
+    "sizeBytes": 107204949,
     "silentArgs": [
       "/S"
     ]
