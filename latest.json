@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-09-04T18:15:05.202Z",
-  "notes": "20.2.46 / Desktop 2.1.33: poprawka zawyżonych RUR i ZCL. Usunięty został zbyt szeroki globalny skaner luźnych czerwonych segmentów, który mógł składać przypadkową geometrię CAD w fałszywe R. R musi teraz mieć pewny korpus (trzon + góra + środek); tylko ukośna noga może pochodzić z osobnego pathu. Prawdziwe R ze ściany 103 nadal jest wykrywane, jedno R = 1 ZCL, a realne zasilanie do R pozostaje osobną rurą z geometrii.",
+  "publishedAt": "2026-09-04T18:36:14.643Z",
+  "notes": "20.2.47 / Desktop 2.1.34: poprawione zawyżanie RUR w Excelu. Planer wcześniej zaokrąglał każdy krótki odcinek rurki osobno do 0,5 m, przez co zapas kumulował się kilka razy na jednej ścianie. Teraz sumuje rzeczywiste długości wszystkich rur/odcinków danej ściany i dopiero łączny wynik zaokrągla w górę do 0,5 m. ZCL i geometria rur pozostają bez zmian.",
   "frontend": {
-    "version": "20.2.46",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.46/FRONTEND_UPDATE_v20.2.46.zip",
-    "sha256": "9209a9ca6aaee8234cff3e1d18f2b331a619181601c22be0ed91891706d26c06",
-    "sizeBytes": 9908530,
+    "version": "20.2.47",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.47/FRONTEND_UPDATE_v20.2.47.zip",
+    "sha256": "9afc3113e38a885efa2f1c7127f8b06b2dae4d385e09f759d6d185161001d465",
+    "sizeBytes": 9908535,
     "requiresDesktopMajor": 2
   },
   "desktop": {
-    "version": "2.1.33",
-    "webVersion": "20.2.46",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.46/Planer-Scian-Setup-v20.2.46-DESKTOP-2.1.33-STATIC-x64.exe",
-    "sha256": "f1039984a97d6f91e147c2a72b90cd01447e8f9596d745a9763890a671896fe7",
-    "sizeBytes": 107204949,
+    "version": "2.1.34",
+    "webVersion": "20.2.47",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.47/Planer-Scian-Setup-v20.2.47-DESKTOP-2.1.34-STATIC-x64.exe",
+    "sha256": "82dbe2192fb75cf47dc49e76237e5bb9c39c16cc1bcb13fd31e21076bb055149",
+    "sizeBytes": 107204954,
     "silentArgs": [
       "/S"
     ]
