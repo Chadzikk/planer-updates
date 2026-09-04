@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-09-04T20:42:56.046Z",
-  "notes": "20.2.49 / Desktop 2.1.36: naprawa źródła zawyżenia RURY przy symbolu R. Jedno prawdziwe R nadal daje dokładnie 1 ZCL, a rzeczywista rura zasilająca pozostaje liczona z geometrii CAD. Dodatkowa rurka ZCL ma 1,50 m, nie pełną wysokość ściany. Dla Jurczyk 104: 298,5 cm realnej rury + 150 cm ZCL = 4,5 m zamiast 6,0 m. Zmieniono wersję cache prefabrykacji, więc zapisane projekty są przeliczane.",
+  "publishedAt": "2026-09-04T21:33:08.358Z",
+  "notes": "20.2.50 / Desktop 2.1.37: dodany odczyt niskich trójkątnych prefabrykatów bez OCR z rzeczywistego konturu CAD (obsługa konturu w jednym lub kilku pathach), zachowane alfanumeryczne numery ścian typu 201A/202A/220A zamiast zgadywania numeru z wymiarów oraz eksport STANY MAGAZYNOWE niezależny od przypisania wszystkich aktywnych ścian do stołów. Numery w Excelu są dopasowywane dokładnie po kolumnie F i kanonizowane do wielkich liter; 220 i 220A pozostają różnymi ścianami.",
   "frontend": {
-    "version": "20.2.49",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.49/FRONTEND_UPDATE_v20.2.49.zip",
-    "sha256": "1729e8a6727d95dcae7f6561cbce4a75469973800c289a1f79075daca00f6f21",
-    "sizeBytes": 9908529,
+    "version": "20.2.50",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.50/FRONTEND_UPDATE_v20.2.50.zip",
+    "sha256": "ba5ca2029ea62641ae28bcf3a6fbe209ae099a4543bca6689352eb4c4703b4ee",
+    "sizeBytes": 9908625,
     "requiresDesktopMajor": 2
   },
   "desktop": {
-    "version": "2.1.36",
-    "webVersion": "20.2.49",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.49/Planer-Scian-Setup-v20.2.49-DESKTOP-2.1.36-STATIC-x64.exe",
-    "sha256": "bc186e232c455fd04609d900a08edef99dd9220508b3464e6f9d43a313789b91",
-    "sizeBytes": 107204925,
+    "version": "2.1.37",
+    "webVersion": "20.2.50",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.50/Planer-Scian-Setup-v20.2.50-DESKTOP-2.1.37-STATIC-x64.exe",
+    "sha256": "38b575dcf5f49ad1836c51e758e86c676b2b7cbfd5d4d41c293ff064cd6de70f",
+    "sizeBytes": 107205015,
     "silentArgs": [
       "/S"
     ]
