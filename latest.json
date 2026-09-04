@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-09-04T18:36:14.643Z",
-  "notes": "20.2.47 / Desktop 2.1.34: poprawione zawyżanie RUR w Excelu. Planer wcześniej zaokrąglał każdy krótki odcinek rurki osobno do 0,5 m, przez co zapas kumulował się kilka razy na jednej ścianie. Teraz sumuje rzeczywiste długości wszystkich rur/odcinków danej ściany i dopiero łączny wynik zaokrągla w górę do 0,5 m. ZCL i geometria rur pozostają bez zmian.",
+  "publishedAt": "2026-09-04T18:54:58.916Z",
+  "notes": "20.2.48 / Desktop 2.1.35: poprawka 20.2.47 liczyła sumę rur prawidłowo, ale nie zmieniła wersji cache prefabrykacji. Przez to otwarty wcześniej projekt zachowywał stare conduitCuts i wynik pozostawał bez zmian. 20.2.48 wymusza ponowną analizę kart PDF po aktualizacji, zachowując wall-total: suma realnych odcinków ściany, potem jedno zaokrąglenie do 0,5 m.",
   "frontend": {
-    "version": "20.2.47",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.47/FRONTEND_UPDATE_v20.2.47.zip",
-    "sha256": "9afc3113e38a885efa2f1c7127f8b06b2dae4d385e09f759d6d185161001d465",
-    "sizeBytes": 9908535,
+    "version": "20.2.48",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.48/FRONTEND_UPDATE_v20.2.48.zip",
+    "sha256": "a3904151cd2bd85dc402675520d15783185c71016024219c811cddeeed00ccfa",
+    "sizeBytes": 9908522,
     "requiresDesktopMajor": 2
   },
   "desktop": {
-    "version": "2.1.34",
-    "webVersion": "20.2.47",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.47/Planer-Scian-Setup-v20.2.47-DESKTOP-2.1.34-STATIC-x64.exe",
-    "sha256": "82dbe2192fb75cf47dc49e76237e5bb9c39c16cc1bcb13fd31e21076bb055149",
-    "sizeBytes": 107204954,
+    "version": "2.1.35",
+    "webVersion": "20.2.48",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.48/Planer-Scian-Setup-v20.2.48-DESKTOP-2.1.35-STATIC-x64.exe",
+    "sha256": "5638cfa4862337c3af8542141d7c331b87b35826929438175033760bae523d90",
+    "sizeBytes": 107204910,
     "silentArgs": [
       "/S"
     ]
