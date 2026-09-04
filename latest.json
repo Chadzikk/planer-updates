@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-09-04T21:33:08.358Z",
-  "notes": "20.2.50 / Desktop 2.1.37: dodany odczyt niskich trójkątnych prefabrykatów bez OCR z rzeczywistego konturu CAD (obsługa konturu w jednym lub kilku pathach), zachowane alfanumeryczne numery ścian typu 201A/202A/220A zamiast zgadywania numeru z wymiarów oraz eksport STANY MAGAZYNOWE niezależny od przypisania wszystkich aktywnych ścian do stołów. Numery w Excelu są dopasowywane dokładnie po kolumnie F i kanonizowane do wielkich liter; 220 i 220A pozostają różnymi ścianami.",
+  "publishedAt": "2026-09-04T22:02:13.495Z",
+  "notes": "20.2.51 / Desktop 2.1.38: poprawiony odczyt trójkątnych i skośnych prefabrykatów. Kontur jest wykrywany lokalnie po podstawie i dwóch bokach, więc wymiarowanie o tej samej grubości linii nie rozciąga już bbox. Grubość nagłówka jest kotwiczona do wiersza ZEWNĘTRZNA/WEWNĘTRZNA, a dla potwierdzonych trójkątów działa dodatkowa kontrola grubości z masy i geometrii. Numery 201A/202A/220A pozostają zachowane.",
   "frontend": {
-    "version": "20.2.50",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.50/FRONTEND_UPDATE_v20.2.50.zip",
-    "sha256": "ba5ca2029ea62641ae28bcf3a6fbe209ae099a4543bca6689352eb4c4703b4ee",
-    "sizeBytes": 9908625,
+    "version": "20.2.51",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.51/FRONTEND_UPDATE_v20.2.51.zip",
+    "sha256": "83f5c8788bf209c2d8e72fa66302cbd6901c3521a9589557be05453e14ab828f",
+    "sizeBytes": 9909310,
     "requiresDesktopMajor": 2
   },
   "desktop": {
-    "version": "2.1.37",
-    "webVersion": "20.2.50",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.50/Planer-Scian-Setup-v20.2.50-DESKTOP-2.1.37-STATIC-x64.exe",
-    "sha256": "38b575dcf5f49ad1836c51e758e86c676b2b7cbfd5d4d41c293ff064cd6de70f",
-    "sizeBytes": 107205015,
+    "version": "2.1.38",
+    "webVersion": "20.2.51",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.51/Planer-Scian-Setup-v20.2.51-DESKTOP-2.1.38-STATIC-x64.exe",
+    "sha256": "ec7f82ac58dd96e4850c1ba3da559fc05e39ac48f29b76d4e02ce386e0de49e8",
+    "sizeBytes": 107205646,
     "silentArgs": [
       "/S"
     ]
