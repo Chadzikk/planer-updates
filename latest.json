@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-09-04T22:02:13.495Z",
-  "notes": "20.2.51 / Desktop 2.1.38: poprawiony odczyt trójkątnych i skośnych prefabrykatów. Kontur jest wykrywany lokalnie po podstawie i dwóch bokach, więc wymiarowanie o tej samej grubości linii nie rozciąga już bbox. Grubość nagłówka jest kotwiczona do wiersza ZEWNĘTRZNA/WEWNĘTRZNA, a dla potwierdzonych trójkątów działa dodatkowa kontrola grubości z masy i geometrii. Numery 201A/202A/220A pozostają zachowane.",
+  "publishedAt": "2026-09-04T22:21:20.869Z",
+  "notes": "20.2.51 / Desktop 2.1.38: poprawiony odczyt skosów/trójkątów i numerów alfanumerycznych, kontrola grubości z geometrii/masy oraz pełny benchmark materiałowy Szmalec Piętro 201–220A.",
   "frontend": {
     "version": "20.2.51",
     "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.51/FRONTEND_UPDATE_v20.2.51.zip",
-    "sha256": "83f5c8788bf209c2d8e72fa66302cbd6901c3521a9589557be05453e14ab828f",
-    "sizeBytes": 9909310,
+    "sha256": "8c43852da61c0c8ac9531812caec4dbad764dbe19e2dd9018786db1cb695e4ca",
+    "sizeBytes": 9909311,
     "requiresDesktopMajor": 2
   },
   "desktop": {
     "version": "2.1.38",
     "webVersion": "20.2.51",
     "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.51/Planer-Scian-Setup-v20.2.51-DESKTOP-2.1.38-STATIC-x64.exe",
-    "sha256": "ec7f82ac58dd96e4850c1ba3da559fc05e39ac48f29b76d4e02ce386e0de49e8",
-    "sizeBytes": 107205646,
+    "sha256": "a7e2200701ec519377c5ba4d9d6da3fd1514a9f9a5649f18ff1a99bca6fa4d88",
+    "sizeBytes": 107205643,
     "silentArgs": [
       "/S"
     ]
