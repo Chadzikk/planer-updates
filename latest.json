@@ -1,21 +1,21 @@
 {
     "schemaVersion":  1,
     "channel":  "stable",
-    "publishedAt":  "2026-09-07T18:12:29.556Z",
-    "notes":  "Planer 20.2.62 / Desktop 2.1.39: ciasne uklady na krotkich stolach sa teraz preferowane na strategicznych pozycjach przy dzwigu. Dla obecnego parku 1-10 sa to stol 3 w dolnej strefie i stol 7 w gornej strefie. Priorytet nie nadpisuje liczby partii, liczby uzyc stolow ani istotnego kosztu przejazdow dzwigu; poprawia wybor fizycznego stolu przy podobnych wariantach transportowych. Zachowano deep-search, logike dzwigu 20.2.61, reczna korekte i drukarki Desktop 2.1.39.",
+    "publishedAt":  "2026-09-07T18:42:17.447Z",
+    "notes":  "Planer 20.2.63 / Desktop 2.1.39: korekta priorytetu ciasnych ukladow. Dla obecnego parku 1-10 strategiczne pozycje to stol 1 i stol 3 w dolnej strefie oraz stol 7 w gornej. Stol 1 i 3 sa rownorzednymi celami dla ciasnych ukladow; wybor miedzy nimi nadal rozstrzygaja transport, kolejnosc i dzwig. Regula nie nadpisuje liczby partii, liczby stolow ani istotnego kosztu przejazdow dzwigu. Zachowano logike 20.2.62/20.2.61, deep-search, reczna korekte i drukarki Desktop 2.1.39.",
     "frontend":  {
-                     "version":  "20.2.62",
-                     "url":  "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.62/FRONTEND_UPDATE_v20.2.62.zip",
-                     "sha256":  "d119074c2b1958b51333adf562bffd5bbed385ccae6ec85ea061f8b61ff1c1e3",
-                     "sizeBytes":  9916719,
+                     "version":  "20.2.63",
+                     "url":  "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.63/FRONTEND_UPDATE_v20.2.63.zip",
+                     "sha256":  "9412f670c6c2785c235526e8f67dc3cccd790c6062e457b47f5b574d28df1047",
+                     "sizeBytes":  9916663,
                      "requiresDesktopMajor":  2
                  },
     "desktop":  {
                     "version":  "2.1.39",
-                    "webVersion":  "20.2.62",
-                    "url":  "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.62/Planer-Scian-Setup-v20.2.62-DESKTOP-2.1.39-STATIC-x64.exe",
-                    "sha256":  "cfe53628cb7194b21ee505efe104a1c36f02598eb9a6f31026e531ea9a521b5e",
-                    "sizeBytes":  106307827,
+                    "webVersion":  "20.2.63",
+                    "url":  "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.63/Planer-Scian-Setup-v20.2.63-DESKTOP-2.1.39-STATIC-x64.exe",
+                    "sha256":  "30a1813193b2d2cedc7990d8d42838b07243046e6d7abd1ba95710e06f51761d",
+                    "sizeBytes":  106307753,
                     "silentArgs":  [
                                        "/S"
                                    ]
