@@ -1,21 +1,21 @@
 {
     "schemaVersion":  1,
     "channel":  "stable",
-    "publishedAt":  "2026-09-07T14:29:19.732Z",
-    "notes":  "20.2.57 / Desktop 2.1.39: poprawki materialow i natywny wybor wszystkich drukarek Windows.",
+    "publishedAt":  "2026-09-07T15:45:48.060Z",
+    "notes":  "Planer 20.2.58 / Desktop 2.1.39: improved table AUTO, more layout variants, correct table-use count across batches, production adviser, manual lock and gap correction, and manual wall moves between tables and batches. Includes native Windows printer selection.",
     "frontend":  {
-                     "version":  "20.2.57",
-                     "url":  "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.57/FRONTEND_UPDATE_v20.2.57.zip",
-                     "sha256":  "555e898c61e3e6339601e3328746f605d7a6a0c6684e6f67b08b6e73df4460c9",
-                     "sizeBytes":  9913659,
+                     "version":  "20.2.58",
+                     "url":  "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.58/FRONTEND_UPDATE_v20.2.58.zip",
+                     "sha256":  "fd38e0551333c20a86957095934ac71f9a99eb4233e4542d6ce63b73cb156684",
+                     "sizeBytes":  9915953,
                      "requiresDesktopMajor":  2
                  },
     "desktop":  {
                     "version":  "2.1.39",
-                    "webVersion":  "20.2.57",
-                    "url":  "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.57/Planer-Scian-Setup-v20.2.57-DESKTOP-2.1.39-STATIC-x64.exe",
-                    "sha256":  "b4d58a8f274f8d41d20c93b025053b2c77546d7d73fdaedf1061e87d3844e106",
-                    "sizeBytes":  106305367,
+                    "webVersion":  "20.2.58",
+                    "url":  "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.58/Planer-Scian-Setup-v20.2.58-DESKTOP-2.1.39-STATIC-x64.exe",
+                    "sha256":  "bfa60497e074b785b1c1498f659d0717c6863140c3a503401032deb50debb0a8",
+                    "sizeBytes":  106307132,
                     "silentArgs":  [
                                        "/S"
                                    ]
