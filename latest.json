@@ -1,21 +1,21 @@
 {
     "schemaVersion":  1,
     "channel":  "stable",
-    "publishedAt":  "2026-09-07T16:28:05.846Z",
-    "notes":  "Planer 20.2.59 / Desktop 2.1.39: deep-search AUTO. Fast heuristics are only starting points; the solver continues through many alternative wall/table arrangements and ranks them by minimum batches, minimum table uses, fewer NA STYK tables, transport grouping and physical hall position, wall sequence, long-table use and waste. Includes manual correction tools and native Windows printer selection.",
+    "publishedAt":  "2026-09-07T17:09:37.710Z",
+    "notes":  "Planer 20.2.60 / Desktop 2.1.39: deep-search AUTO uwzglednia dwie pozycje dzwigu. Dolna strefa 1-5, gorna 5-10, stol 5 wspolny. I wozek preferuje dol hali, II i kolejne gore; 1-4 sciany miedzy strefami sa dopuszczalnym kompromisem, wieksza liczba przejazdow jest mocno karana. Zachowano minimum partii/stolow, ograniczanie NA STYK, reczna korekte i natywny wybor drukarki.",
     "frontend":  {
-                     "version":  "20.2.59",
-                     "url":  "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.59/FRONTEND_UPDATE_v20.2.59.zip",
-                     "sha256":  "5b3ab75c2a1ce34345bb741f3e93327b3dec3c4736fefe677153acab334abec3",
-                     "sizeBytes":  9916147,
+                     "version":  "20.2.60",
+                     "url":  "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.60/FRONTEND_UPDATE_v20.2.60.zip",
+                     "sha256":  "e452aee21f750485f05f8ce26b42a1ffbf2a22483e0fe9659ff731daccde380e",
+                     "sizeBytes":  9916393,
                      "requiresDesktopMajor":  2
                  },
     "desktop":  {
                     "version":  "2.1.39",
-                    "webVersion":  "20.2.59",
-                    "url":  "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.59/Planer-Scian-Setup-v20.2.59-DESKTOP-2.1.39-STATIC-x64.exe",
-                    "sha256":  "77d16cea02ed5ef865d81442967367b3a397cf01dcd6876f357abedaadcd8bf6",
-                    "sizeBytes":  106307297,
+                    "webVersion":  "20.2.60",
+                    "url":  "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.60/Planer-Scian-Setup-v20.2.60-DESKTOP-2.1.39-STATIC-x64.exe",
+                    "sha256":  "525f8e254622d1c96acab9664ce834887deeea902b410353ad67dca74412491e",
+                    "sizeBytes":  106307492,
                     "silentArgs":  [
                                        "/S"
                                    ]
