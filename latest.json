@@ -1,23 +1,23 @@
 {
-  "schemaVersion": 1,
-  "channel": "stable",
-  "publishedAt": "2026-09-04T22:21:20.869Z",
-  "notes": "20.2.51 / Desktop 2.1.38: poprawiony odczyt skosów/trójkątów i numerów alfanumerycznych, kontrola grubości z geometrii/masy oraz pełny benchmark materiałowy Szmalec Piętro 201–220A.",
-  "frontend": {
-    "version": "20.2.51",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.51/FRONTEND_UPDATE_v20.2.51.zip",
-    "sha256": "8c43852da61c0c8ac9531812caec4dbad764dbe19e2dd9018786db1cb695e4ca",
-    "sizeBytes": 9909311,
-    "requiresDesktopMajor": 2
-  },
-  "desktop": {
-    "version": "2.1.38",
-    "webVersion": "20.2.51",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.51/Planer-Scian-Setup-v20.2.51-DESKTOP-2.1.38-STATIC-x64.exe",
-    "sha256": "a7e2200701ec519377c5ba4d9d6da3fd1514a9f9a5649f18ff1a99bca6fa4d88",
-    "sizeBytes": 107205643,
-    "silentArgs": [
-      "/S"
-    ]
-  }
+    "schemaVersion":  1,
+    "channel":  "stable",
+    "publishedAt":  "2026-09-07T14:29:19.732Z",
+    "notes":  "20.2.57 / Desktop 2.1.39: poprawki materialow i natywny wybor wszystkich drukarek Windows.",
+    "frontend":  {
+                     "version":  "20.2.57",
+                     "url":  "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.57/FRONTEND_UPDATE_v20.2.57.zip",
+                     "sha256":  "555e898c61e3e6339601e3328746f605d7a6a0c6684e6f67b08b6e73df4460c9",
+                     "sizeBytes":  9913659,
+                     "requiresDesktopMajor":  2
+                 },
+    "desktop":  {
+                    "version":  "2.1.39",
+                    "webVersion":  "20.2.57",
+                    "url":  "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.57/Planer-Scian-Setup-v20.2.57-DESKTOP-2.1.39-STATIC-x64.exe",
+                    "sha256":  "b4d58a8f274f8d41d20c93b025053b2c77546d7d73fdaedf1061e87d3844e106",
+                    "sizeBytes":  106305367,
+                    "silentArgs":  [
+                                       "/S"
+                                   ]
+                }
 }
