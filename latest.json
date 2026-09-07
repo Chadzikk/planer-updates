@@ -1,21 +1,21 @@
 {
     "schemaVersion":  1,
     "channel":  "stable",
-    "publishedAt":  "2026-09-07T18:42:17.447Z",
-    "notes":  "Planer 20.2.63 / Desktop 2.1.39: korekta priorytetu ciasnych ukladow. Dla obecnego parku 1-10 strategiczne pozycje to stol 1 i stol 3 w dolnej strefie oraz stol 7 w gornej. Stol 1 i 3 sa rownorzednymi celami dla ciasnych ukladow; wybor miedzy nimi nadal rozstrzygaja transport, kolejnosc i dzwig. Regula nie nadpisuje liczby partii, liczby stolow ani istotnego kosztu przejazdow dzwigu. Zachowano logike 20.2.62/20.2.61, deep-search, reczna korekte i drukarki Desktop 2.1.39.",
+    "publishedAt":  "2026-09-07T22:40:54.009Z",
+    "notes":  "Planer 20.2.64 / Desktop 2.1.39: poprawka fizycznego odczytu tras rur/peszli z PDF. Na zestawie 22 rzeczywistych rysunkow produkcyjnych parser liczy 51,0 mb tras elektrycznych; peszel fi50 na 201A i 220A jest pomijany i nie jest doliczany do rur ani ZCL. Zachowano Desktop 2.1.39. Wydanie opublikowane na decyzje uzytkownika mimo znanej niezaliczonej pelnej regresji galezi 20.2.64; dalsze poprawki beda wykonane w kolejnym wydaniu.",
     "frontend":  {
-                     "version":  "20.2.63",
-                     "url":  "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.63/FRONTEND_UPDATE_v20.2.63.zip",
-                     "sha256":  "9412f670c6c2785c235526e8f67dc3cccd790c6062e457b47f5b574d28df1047",
-                     "sizeBytes":  9916663,
+                     "version":  "20.2.64",
+                     "url":  "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.64/FRONTEND_UPDATE_v20.2.64.zip",
+                     "sha256":  "a373ecb8d0fa86aee07ab2a3c208dda0a51083430a3dabca2cf0982ba535683d",
+                     "sizeBytes":  9916668,
                      "requiresDesktopMajor":  2
                  },
     "desktop":  {
                     "version":  "2.1.39",
-                    "webVersion":  "20.2.63",
-                    "url":  "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.63/Planer-Scian-Setup-v20.2.63-DESKTOP-2.1.39-STATIC-x64.exe",
-                    "sha256":  "30a1813193b2d2cedc7990d8d42838b07243046e6d7abd1ba95710e06f51761d",
-                    "sizeBytes":  106307753,
+                    "webVersion":  "20.2.64",
+                    "url":  "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.64/Planer-Scian-Setup-v20.2.64-DESKTOP-2.1.39-STATIC-x64.exe",
+                    "sha256":  "b3e0ee92c8ea384671802db0e0132dfb669c80cbd4e775a13d4b975cb60f7fd8",
+                    "sizeBytes":  106307809,
                     "silentArgs":  [
                                        "/S"
                                    ]
