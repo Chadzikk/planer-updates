@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-09-09T17:12:54.984Z",
-  "notes": "Planer 20.3.1 — hardening, korekta wysokości i ręcznej prefabrykacji",
+  "publishedAt": "2026-09-09T18:52:37.410Z",
+  "notes": "Planer 20.3.2 — hardening, korekta wysokości i ręcznej prefabrykacji",
   "frontend": {
-    "version": "20.3.1",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.3.1/FRONTEND_UPDATE_v20.3.1.zip",
-    "sha256": "e830ed6c200bb121ff5ef3fa1d9e1ef31ac841f9534cc5a3b3cf077efac566fb",
-    "sizeBytes": 10014540,
+    "version": "20.3.2",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.3.2/FRONTEND_UPDATE_v20.3.2.zip",
+    "sha256": "f7108293ab6209d88d6e4b221d8faf908ad686c7a396d5572422722c353df1ec",
+    "sizeBytes": 10014771,
     "requiresDesktopMajor": 2
   },
   "desktop": {
     "version": "2.1.39",
-    "webVersion": "20.3.1",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.3.1/Planer-Scian-Setup-v20.3.1-DESKTOP-2.1.39-STATIC-x64.exe",
-    "sha256": "3c4ad81db5d74797f50545cd1b475af81c015364fcbf803821e15d4400219be4",
-    "sizeBytes": 106311743,
+    "webVersion": "20.3.2",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.3.2/Planer-Scian-Setup-v20.3.2-DESKTOP-2.1.39-STATIC-x64.exe",
+    "sha256": "8267b9f60afda61c233a2bffaa2a522c3563308875fdfcce4fc05d2531303b31",
+    "sizeBytes": 107217081,
     "silentArgs": [
       "/S"
     ]
