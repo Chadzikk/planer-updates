@@ -1,21 +1,23 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "publishedAt": "2026-09-07T22:40:54.009Z",
-  "notes": "Planer 20.2.64 / Desktop 2.1.39: poprawka fizycznego odczytu tras rur/peszli z PDF. Na zestawie 22 rzeczywistych rysunkow produkcyjnych parser liczy 51,0 mb tras elektrycznych; peszel fi50 na 201A i 220A jest pomijany i nie jest doliczany do rur ani ZCL. Zachowano Desktop 2.1.39. Wydanie opublikowane na decyzje uzytkownika mimo znanej niezaliczonej pelnej regresji galezi 20.2.64; dalsze poprawki beda wykonane w kolejnym wydaniu.",
+  "publishedAt": "2026-09-09T16:22:21.628Z",
+  "notes": "Planer 20.3.0 — hardening, korekta wysokości i ręcznej prefabrykacji",
   "frontend": {
-    "version": "20.2.64",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.64/FRONTEND_UPDATE_v20.2.64.zip",
-    "sha256": "f4ec656bd1a20bf62c703322dc7bcf97c8c3eb480cf2f2c0b98f22b5e58dc9f9",
-    "sizeBytes": 9916671,
+    "version": "20.3.0",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.3.0/FRONTEND_UPDATE_v20.3.0.zip",
+    "sha256": "dfaf13a70d1cc8889f344858aa7d50bf5d010d63c24d5f22499d8a6ced238012",
+    "sizeBytes": 10013776,
     "requiresDesktopMajor": 2
   },
   "desktop": {
     "version": "2.1.39",
-    "webVersion": "20.2.64",
-    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.2.64/Planer-Scian-Setup-v20.2.64-DESKTOP-2.1.39-STATIC-x64.exe",
-    "sha256": "b3e0ee92c8ea384671802db0e0132dfb669c80cbd4e775a13d4b975cb60f7fd8",
-    "sizeBytes": 106307809,
-    "silentArgs": ["/S"]
+    "webVersion": "20.3.0",
+    "url": "https://github.com/Chadzikk/planer-updates/releases/download/v20.3.0/Planer-Scian-Setup-v20.3.0-DESKTOP-2.1.39-STATIC-x64.exe",
+    "sha256": "8f76879e4016589867059be4535db48ce8e0517488041c162317275dc7538ec5",
+    "sizeBytes": 106311079,
+    "silentArgs": [
+      "/S"
+    ]
   }
 }
